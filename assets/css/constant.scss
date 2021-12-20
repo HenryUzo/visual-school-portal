@@ -1,0 +1,226 @@
+$primaryColor: #1386da;
+$secondaryColor: #b458c7;
+$textColor: #686868;
+$grayColor: #f4f4f4;
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+.background-primary {
+    background-color: $primaryColor !important;
+    color: white;
+}
+
+.background-secondary {
+    background-color: $secondaryColor !important;
+    color: white;
+}
+
+.background-tertiary {
+    background-color: $grayColor !important;
+    color: white;
+}
+.stroke-primary {
+    border: 1px $primaryColor solid !important;
+    color: $primaryColor;
+}
+
+.stroke-secondary {
+    border: 1px $secondaryColor solid !important;
+    color: $secondaryColor;
+}
+
+.stroke-tertiary {
+    border: 1px $textColor solid !important;
+    color: $textColor;
+}
+
+.primary-text-clr {
+    color: $primaryColor !important;
+}
+.secondary-text-clr {
+    color: $secondaryColor !important;
+}
+
+.paragraph-text-clr {
+    color: $textColor !important;
+}
+
+.vschool-primary-btn {
+    background-color: $primaryColor;
+    
+    box-shadow: 0px 8px 18px rgba(0, 0, 0, 0.25);
+    font-weight: 600;
+    svg {
+        path {
+            fill: white;
+        }
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    &:hover {
+        background-color: $secondaryColor;
+        box-shadow: none;
+        a{
+            color: white;
+        }
+    }
+}
+
+.vschool-secondary-btn {
+    background-color: $secondaryColor;
+    color: white;
+    border: $secondaryColor;
+    font-weight: 600;
+    svg {
+        path {
+            fill: white;
+        }
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    &:hover {
+        background-color: $primaryColor;
+        box-shadow: none;
+        a{
+            color: white;
+        }
+    }
+}
+
+.vschool-primary-btn-outline {
+    border: 1px $primaryColor solid !important;
+    color: $primaryColor;
+    background-color: transparent;
+
+    font-weight: 600;
+    svg {
+        path {
+            fill: $primaryColor !important;
+        }
+    }
+    a{
+        text-decoration: none;
+        color: $primaryColor;
+    }
+    &:hover {
+        background-color: $primaryColor;
+        color: white;
+        a{
+            color: white;
+        }
+    }
+}
+
+.vschool-secondary-btn-outline {
+    background-color: transparent;
+    border: 1px $secondaryColor solid !important;
+    color: $secondaryColor;
+    font-weight: 600;
+    svg {
+        path {
+            fill: $secondaryColor !important;
+        }
+    }
+    a{
+        text-decoration: none;
+        color: $secondaryColor;
+      
+    }
+    &:hover {
+        background-color: $secondaryColor;
+       
+        a{
+            color: white;
+        }
+    }
+}
+
+.profile-image{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    img{
+        width: 100%;
+    }
+}
+
+.small-profile-image{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    img{
+        width: 100%;
+    }
+}
+
+.menu {
+    a {
+        text-decoration: none;
+        color: #000;
+        font-weight: 600;
+
+        svg {
+            path {
+                fill: #000;
+            }
+        }
+    }
+    background-color: transparent;
+    border: none;
+    &:hover {
+        a {
+            color: white;
+
+            svg {
+                path {
+                    fill: white;
+                }
+            }
+        }
+        background-color: $primaryColor;
+
+        box-shadow: 0px 8px 18px rgba(0, 0, 0, 0.25);
+    }
+}
+
+.info-topic {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.link-button {
+    margin-bottom: 40px;
+    a {
+        text-decoration: none;
+        color: $primaryColor;
+    }
+
+    svg {
+        path {
+            stroke: $primaryColor;
+        }
+    }
+    &:hover {
+        a {
+            color: $textColor;
+        }
+        svg {
+            path {
+                stroke: $textColor;
+            }
+        }
+    }
+}
+
+.vschool-nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: $primaryColor !important;
+}

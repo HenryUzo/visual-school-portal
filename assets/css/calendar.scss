@@ -1,0 +1,87 @@
+@import "./constant";
+
+
+.calender {
+    
+    width: 100%;
+    
+  
+    padding: 9px;
+
+}
+
+.calender .majorDate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px 0 0 0;
+}
+
+.calender .majorDate .getdate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 23px;
+    color: black;
+    cursor: default;
+}
+
+.calender .majorDate .getdate p {
+    font-size: 21px;
+    font-weight: bold;
+    padding: 3px;
+    cursor: default;
+}
+
+.calender .majorDate .fas {
+    font-size: 25px;
+    color: black;
+    cursor: pointer;
+}
+
+.calender .dateContainer {
+    padding: 0 16px;
+}
+
+.calender .box {
+    position: relative;
+    width: calc(100%/7);
+    height: 52px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+    font-weight: 500;
+    color: black;
+}
+.activeParent{
+    color: white !important;
+}
+
+.calender .dateContainer .days {
+    display: flex;
+}
+
+.calender .dateContainer .dayCount {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.calender .dateContainer .dayCount span {
+    z-index: 3;
+}
+
+.calender .active {
+    color: white;
+    background: $primaryColor;
+    display: block;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    border-radius: 50%;
+    z-index: 0;
+}
+
+

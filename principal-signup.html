@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Head-teacher-Signup</title>
+
+    <!-- Bootstarp CSS -->
+
+    <link href="./assets/css/bootstarp/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!--End Bootstarp CSS -->
+
+    <!-- Font Awesome -->
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+        integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+    <!--End Font Awesome -->
+
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!--End Font -->
+
+    <!-- Default CSS -->
+
+    <link rel="stylesheet" href="./assets/css/principal-signup.css">
+
+    <!--End Default CSS -->
+
+</head>
+
+<body>
+
+    <div class="container signup-form  ">
+
+        <div class="bg-white my-5 p-3 p-md-5 the-form">
+            <div class="heading mt-2 mb-3 text-center ">
+                <h4 class="">
+                    Head Teacher Sign Up 
+                </h4>
+            </div>
+            <div class="row">
+                <div class="list-group list-group-horizontal-md mx-md-3 my-4">
+                    <div class="image profile-image mx-3 mx-md-0 text-center mx-auto">
+                        <img src="./assets/img/profile-pics.png" alt="">
+                    </div>
+                    <div class=" ms-md-3 my-auto mt-3 mt-md-auto">
+                        <div class="input-group">
+
+                            <input type="file" class="form-control p-3 px-4" id="inputGroupFile03"
+                                aria-describedby="inputGroupFileAddon03" aria-label="Upload">
+                            <button class="btn btn-outline-secondary vschool-secondary-btn px-md-5 " type="button"
+                                id="inputGroupFileAddon03">Change Profile Picture</button>
+                        </div>
+                        <div class="caption fst-italic my-2 mx-2 ">File Format Supported (png, jpg, jpeg)</div>
+                    </div>
+                </div>
+                <div class="col-md-4 my-3">
+
+                    <div class="form-floating">
+                        <input type="text" class="form-control" id="full-name" placeholder="Enter First Name">
+                        <label for="floatingPassword">Full Name</label>
+                    </div>
+                </div>
+
+                <div class="col-md-4 my-3">
+                    <div class="form-floating">
+                        <select class="form-select" id="gender" aria-label="Floating label select example">
+                            <option selected>Select Gender</option>
+                            <option value="1">Male</option>
+                            <option value="2">Female</option>
+                        </select>
+                        <label for="floatingSelect">Gender</label>
+                    </div>
+                </div>
+                <div class="col-md-4 my-3">
+
+                    <div class="form-floating">
+                        <input type="date" class="form-control" id="DOB" placeholder="Select Date">
+                        <label for="floatingPassword">Date of Birth</label>
+                    </div>
+                </div>
+                <div class="col-md-12 my-2">
+                    <label for="exampleFormControlTextarea1" class="form-label">Bio</label>
+                    <div class="form-floating">
+
+                        <textarea class="form-control" style="height:120px;" placeholder="Leave a comment here"
+                            id="floatingTextarea2" style="height: 100px"></textarea>
+                        <label style="font-weight: 400;" for="floatingTextarea2">Enter Description</label>
+                    </div>
+                </div>
+                <div class="col-md-4 my-3">
+                    <div class="form-floating">
+                        <input type="tel" class="form-control" id="phone" placeholder="Enter Phone Number">
+                        <label for="floatingPassword">Phone Number</label>
+                    </div>
+                </div>
+                <div class="col-md-4 my-3">
+
+                    <div class="form-floating">
+                        <input type="text" class="form-control" id="address" placeholder="Enter First Name">
+                        <label for="floatingPassword">Address</label>
+                    </div>
+                </div>
+                <div class="col-md-4 my-3">
+                    <div class="form-floating">
+                        <select class="form-select" id="state-of-origin" aria-label="Floating label select example">
+                            <option selected>Select State</option>
+                            <option value="1">Anambra</option>
+                            <option value="2">Onitsha</option>
+                        </select>
+                        <label for="floatingSelect">State of Origin</label>
+                    </div>
+                </div>
+          
+              
+                <div class="col-md-4 my-3">
+                    <div class="form-floating">
+                        <select class="form-select" id="LGA" aria-label="Floating label select example">
+                            <option selected>Select Local Government Area</option>
+                            <option value="1">Nnewi-South</option>
+                            <option value="2">Akwa</option>
+                        </select>
+                        <label for="floatingSelect">Local Government Area</label>
+                    </div>
+                </div>
+                <div class="col-md-4 my-3">
+                    <div class="form-floating">
+                        <select class="form-select" id="school" aria-label="Floating label select example">
+                            <option selected>Select School</option>
+                            <option value="1">Prince Well</option>
+                            <option value="2">Jakande</option>
+                        </select>
+                        <label for="floatingSelect">School</label>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 my-3">
+
+                    <div class="form-floating">
+                        <input type="text" class="form-control" id="jobTitle" placeholder="Enter First Name">
+                        <label for="floatingPassword">Job Title</label>
+                    </div>
+                </div>
+                <div class="col-md-4 my-3">
+
+                    <div class="form-floating">
+                        <input type="number" class="form-control" id="yearOfExp" placeholder="Enter First Name">
+                        <label for="floatingPassword">Years of Experience</label>
+                    </div>
+                </div>
+            
+                <div class="col-md-4 my-3">
+                    <div class="form-floating">
+                        <select class="form-select" id="language" aria-label="Floating label select example">
+                            <option selected>Select School</option>
+                            <option value="1">Prince Well</option>
+                            <option value="2">Jakande</option>
+                        </select>
+                        <label for="floatingSelect">Language</label>
+                    </div>
+                </div>
+<!-- 
+                <div class="col-md-6 my-3">
+                    <label for="exampleFormControlInput1" class="form-label">CV</label>
+
+                    <div class="input-group">
+                      
+                        <input type="file" class="form-control p-3 px-4" id="inputGroupFile03"
+                            aria-describedby="inputGroupFileAddon03" aria-label="Upload">
+                            <button class="btn btn-outline-secondary vschool-secondary-btn px-5" type="button"
+                            id="inputGroupFileAddon03">Upload CV</button>
+                    </div>
+                    <div class="caption fst-italic my-2 mx-2 ">File Format Supported (pdf, txt, doc, docx)</div>
+
+                </div> -->
+                <div class="col-md-4 my-3">
+                    <div class="form-floating">
+                        <input type="text" class="form-control" id="staffID" placeholder="Enter Staff ID">
+                        <label for="floatingPassword">Staff ID</label>
+                    </div>
+                </div>
+                <div class="col-md-4 my-3">
+                    <div class="form-floating">
+                        <input type="password" class="form-control" id="password" placeholder="Enter Staff ID">
+                        <label for="floatingPassword">Password</label>
+                    </div>
+                </div>
+                <div class="col-md-4 my-3">
+                    <div class="form-floating">
+                        <input type="password" class="form-control" id="confirmPassword" placeholder="Enter Staff ID">
+                        <label for="floatingPassword">Confirm Password</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row my-3">
+                <div class="col-lg-3">
+                    <button type="button"
+                        class="col-12 btn btn-primary px-4 py-2 vschool-primary-btn text-center me-5 mt-4">
+                        <a href="/teacher-dashboard.html">Submit</a>
+                    </button>
+
+                </div>
+                <div class="col-lg-3">
+                    <button type="button"
+                        class="col-12 btn btn-primary px-4 py-2 vschool-secondary-btn text-center me-5 mt-4">
+                        <a href="/index.html">Back</a>
+                    </button>
+                </div>
+                <div class=" link-button ps-3 my-5">
+                    Already Registered?
+                    <a href="login.html" class="link-button">
+                        Sign in
+
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <!-- Bootstrap JS -->
+    <script src="./assets/js/bootstrap/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+
+    <!-- default JS -->
+    <script src="./assets/js/principal-signup.js"></script>
+    <!-- default JS -->
+
+
+
+</body>
+
+</html>

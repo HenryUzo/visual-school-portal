@@ -1,0 +1,19 @@
+@import "./constant";
+@import "./side-menu";
+@import "./main-body";
+@import "./profile-section";
+
+html{
+    overflow-x: hidden;
+
+    .upload-file{
+        .image{
+            width: 100px;
+            overflow: hidden;
+            img{
+                width: 100%;
+
+            }
+        }
+    }
+}

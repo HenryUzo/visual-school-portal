@@ -1,0 +1,185 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.vschool-primary-btn {
+  background-color: #1386da;
+  color: white;
+  -webkit-box-shadow: 0px 8px 18px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 8px 18px rgba(0, 0, 0, 0.25);
+  font-weight: 600;
+}
+
+.vschool-primary-btn svg path {
+  fill: white;
+}
+
+.vschool-secondary-btn {
+  background-color: #b458c7;
+  color: white;
+  border: #b458c7;
+  font-weight: 600;
+}
+
+.vschool-secondary-btn svg path {
+  fill: white;
+}
+
+.menu {
+  background-color: transparent;
+  border: none;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+}
+
+.menu a svg path {
+  fill: #000;
+}
+
+.menu:hover {
+  background-color: #1386da;
+  -webkit-box-shadow: 0px 8px 18px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 8px 18px rgba(0, 0, 0, 0.25);
+}
+
+.menu:hover a {
+  color: white;
+}
+
+.menu:hover a svg path {
+  fill: white;
+}
+
+.info-topic {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.link-button {
+  margin-bottom: 40px;
+}
+
+.link-button a {
+  text-decoration: none;
+  color: #1386da;
+}
+
+.link-button svg path {
+  stroke: #1386da;
+}
+
+.link-button:hover a {
+  color: #686868;
+}
+
+.link-button:hover svg path {
+  stroke: #686868;
+}
+
+.calender {
+  width: 100%;
+  padding: 9px;
+}
+
+.calender .majorDate {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  padding: 20px 0 0 0;
+}
+
+.calender .majorDate .getdate {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 23px;
+  color: black;
+  cursor: default;
+}
+
+.calender .majorDate .getdate p {
+  font-size: 21px;
+  font-weight: bold;
+  padding: 3px;
+  cursor: default;
+}
+
+.calender .majorDate .fas {
+  font-size: 25px;
+  color: black;
+  cursor: pointer;
+}
+
+.calender .dateContainer {
+  padding: 0 16px;
+}
+
+.calender .box {
+  position: relative;
+  width: calc(100%/7);
+  height: 52px;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 3;
+  font-weight: 500;
+  color: black;
+}
+
+.activeParent {
+  color: white !important;
+}
+
+.calender .dateContainer .days {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.calender .dateContainer .dayCount {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.calender .dateContainer .dayCount span {
+  z-index: 3;
+}
+
+.calender .active {
+  color: white;
+  background: #1386da;
+  display: block;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  border-radius: 50%;
+  z-index: 0;
+}
+/*# sourceMappingURL=calendar.css.map */

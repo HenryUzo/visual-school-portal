@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dashboard-principal</title>
+
+    <!-- Bootstarp CSS -->
+
+    <link href="./assets/css/bootstarp/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!--End Bootstarp CSS -->
+
+    <!-- Font Awesome -->
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+        integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+    <!--End Font Awesome -->
+
+    <!-- Owl Carousel for Sliders -->
+
+    <link rel="stylesheet" href="./assets/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+
+    <!--End Owl Carousel for Sliders -->
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!--End Font -->
+
+    <!-- Default CSS -->
+
+    <link rel="stylesheet" href="./assets/css/index.css">
+
+    <!--End Default CSS -->
+
+</head>
+
+<body>
+
+    <div class="container-fluid banner-background pb-5">
+        <div class="container-fluid nav">
+            <div class="mobile-nav container">
+                <div class="row">
+                    <div class="col-md-4 col-3 my-4 mt-5 ps-md-5 ps-3">
+                        <div id="mySidenav" class="top-nav">
+                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                            <a href="#">Dashboard</a>
+                            <a href="#">Results</a>
+                            <a href="#">Teacher</a>
+                            <a href="#">Schools</a>
+
+                        </div>
+
+                        <span class="hamburger" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+                    </div>
+                    <div class="col-md-4 col-6 text-center">
+                        <div class=" my-4">
+                            <a class="navbar-brand" href="#">
+                                <div class="image profile-image mx-auto">
+                                    <img src="./assets/img/VSP-Main.png" alt="">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <nav class="container vschool-contain navbar navbar-expand-lg navbar-light  landing-page-menu">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <div class="image profile-image mx-auto">
+                        <img src="./assets/img/VSP-Main.png" alt="">
+                    </div>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse mx-5 text-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/login.html">Sign In</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Sign Up
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="/student-signup.html">Students</a></li>
+                                <li><a class="dropdown-item" href="/signup-teacher.html">Teachers</a></li>
+                                <li><a class="dropdown-item" href="/principal-signup.html">Principal</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+        <div class="container vschool-contain ">
+            <div class="row ">
+                <div class="col-6 my-auto">
+                    <h1 class="big-caption">
+                        Discover the <br>
+                        Future
+                    </h1>
+                    <p class="small-caption my-3">
+                        A better way of accessing your test and examination records
+                    </p>
+                    <button type="button"
+                        class="col-12 btn btn-primary px-4 w-50 py-2 vschool-primary-btn text-center me-5 mt-4">
+                        <a href="">Submit</a>
+                    </button>
+                </div>
+                <div class="col-6">
+                    <div class="image">
+                        <img src="./assets/img/banner-image.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="container py-5 vschool-contain portal-info">
+        <div class="row">
+            <div class="col-12 text-center mx-auto">
+                <h5 class="topic my-4">
+                    Visual School Portal
+                </h5>
+                <p class="text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ligula eros, in senectus at. Neque
+                    malesuada sollicitudin et id. Senectus enim, diam tortor fames quis nisl dolor. Nisl morbi gravida
+                    pharetra venenatis vulputate diam est. Etiam malesuada nibh quisque tempus. Nascetur facilisis sit
+                    amet, adipiscing aliquet pellentesque at.
+                    Neque, ultricies mattis urna turpis volutpat ut id lectus. Quis ultrices faucibus nisl leo tellus
+                    sed a. Eu integer.
+                </p>
+
+            </div>
+        </div>
+        <div class="row vschool-contain-small mx-auto my-4 justify-content-center">
+            <div class="col-4  text-center">
+                <div class="image my-3">
+                    <img src="./assets/img/noto_man-student-dark-skin-tone.png" alt="">
+                </div>
+                <h6 class="small-topic primary-text-clr">
+                    Students
+                </h6>
+                <p>Check Test and Exam Results</p>
+            </div>
+            <div class="col-4 text-center">
+                <div class="image my-3">
+                    <img src="./assets/img/noto_man-teacher-dark-skin-tone.png" alt="">
+                </div>
+                <h6 class="small-topic primary-text-clr">
+                    Teachers
+                </h6>
+                <p>Upload Test and Exam Results</p>
+            </div>
+            <div class="col-4 text-center">
+                <div class="image my-3">
+                    <img src="./assets/img/noto_teacher-dark-skin-tone.png" alt="">
+                </div>
+                <h6 class="small-topic primary-text-clr">
+                    Principal
+                </h6>
+                <p>Approve Test and Exam Results</p>
+            </div>
+        </div>
+    </div>
+    <div class="container vschool-contain">
+        <div class="row">
+            <div class="col-6">
+                <div class="image">
+                    <img src="./assets/img/about-us-image.png" alt="">
+                </div>
+            </div>
+            <div class="col-6 my-auto">
+                <h5>
+                    About Us
+                </h5>
+                <h3>
+                    We are the future of Education
+                </h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ligula eros, in senectus at. Neque
+                    malesuada sollicitudin et id. Senectus enim, diam tortor fames quis nisl dolor. Nisl morbi gravida
+                    pharetra venenatis vulputate diam est. Etiam
+                </p>
+                <h5>
+                    Why Visual Portal?
+                </h5>
+                <div class="list-group list-group-horizontal">
+                    <div class="image list-group-item">
+                        <img src="./assets/img/emojione_ballot-box-with-check.svg" alt="">
+                    </div>
+                    <div class="list-group-item">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ligula eros, in senectus at. Neque
+                        malesuada sollicitudin et id.
+                    </div>
+
+                </div>
+                <div class="list-group list-group-horizontal">
+                    <div class="image list-group-item">
+                        <img src="./assets/img/emojione_ballot-box-with-check.svg" alt="">
+                    </div>
+                    <div class="list-group-item">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ligula eros, in senectus at. Neque
+                        malesuada sollicitudin et id.
+                    </div>
+
+                </div>
+                <div class="list-group list-group-horizontal">
+                    <div class="image list-group-item">
+                        <img src="./assets/img/emojione_ballot-box-with-check.svg" alt="">
+                    </div>
+                    <div class="list-group-item">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ligula eros, in senectus at. Neque
+                        malesuada sollicitudin et id.
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="container vschool-contain">
+        <div class="row">
+
+            <div class="col-6 my-auto">
+                <h5>
+                    Contact Us
+                </h5>
+                <h3>
+                    Ask A Question!
+                </h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ligula eros, in senectus at. Neque
+                    malesuada sollicitudin et id.
+                </p>
+                <form class="row">
+                    <div class="col-md-6 my-3">
+                   
+                        <div class="form-floating">
+                            <input type="text" class="form-control" id="userFirstName" placeholder="Enter First Name">
+                            <label for="floatingPassword">First Name</label>
+                          </div>
+                    </div>
+                    <div class="col-md-6 my-3">
+                   
+                        <div class="form-floating">
+                            <input type="text" class="form-control" id="userFirstName" placeholder="Enter First Name">
+                            <label for="floatingPassword">First Name</label>
+                          </div>
+                    </div>
+                    <div class="col-md-6 my-3">
+                   
+                        <div class="form-floating">
+                            <input type="text" class="form-control" id="userFirstName" placeholder="Enter First Name">
+                            <label for="floatingPassword">First Name</label>
+                          </div>
+                    </div>
+                    <div class="col-md-6 my-3">
+                   
+                        <div class="form-floating">
+                            <input type="text" class="form-control" id="userFirstName" placeholder="Enter First Name">
+                            <label for="floatingPassword">First Name</label>
+                          </div>
+                    </div>
+                    <div class="col-md-12 my-2">
+                        <label for="exampleFormControlTextarea1" class="form-label">Bio</label>
+                        <div class="form-floating">
+    
+                            <textarea class="form-control" style="height:120px;" placeholder="Leave a comment here"
+                                id="floatingTextarea2" style="height: 100px"></textarea>
+                            <label style="font-weight: 400;" for="floatingTextarea2">Enter Description</label>
+                        </div>
+                    </div>
+                    <button type="button"
+                        class="col-12 btn btn-primary px-4 w-50 py-2 vschool-primary-btn text-center me-5 mt-4">
+                        <a href="">Submit</a>
+                    </button>
+
+                  </form>
+
+
+            </div>
+            <div class="col-md-6">
+                <div class="image">
+                    <img src="./assets/img/question-image.png" alt="">
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="container">
+        <div class="col-md-6">
+            <div class="row">
+                <div class="col-4">
+                    <h5>
+                        Phone Number
+                    </h5>
+                    <p>
+                        08169383231
+                    </p>
+                  
+                </div>
+                <div class="col-4">
+                    <h5>
+                        Email
+                    </h5>
+                    <p>
+                        info@visualschool.com
+                    </p>
+                </div>
+                <div class="col-4">
+                    <h5>
+                        Our Address
+                    </h5>
+                    <p>
+                        3 Opebi Rd Anambra State
+                    </p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <!-- Bootstrap JS -->
+    <script src="./assets/js/bootstrap/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+
+    <!-- Jquery JS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!--End Jquery JS -->
+
+    <!-- Owl Carousel JS -->
+    <script src="./assets/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <!--End Owl Carousel JS -->
+
+    <!-- Calendar JS -->
+    <script src="./assets/js/calendar.js"></script>
+    <!--End Calendar JS -->
+
+    <!-- default JS -->
+    <script src="./assets/js/index.js"></script>
+    <!-- default JS -->
+
+</body>
+
+</html>

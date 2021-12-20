@@ -1,0 +1,17 @@
+@import "./constant";
+@import "./side-menu";
+@import "./main-body";
+
+html{
+    overflow-x: hidden;
+
+    .topic{
+        font-weight: 500;
+        color: $textColor;
+    }
+    .details{
+       font-weight: 600;
+      
+    }
+   
+}  

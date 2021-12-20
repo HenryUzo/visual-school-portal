@@ -1,0 +1,90 @@
+@import "./constant";
+@import "./calendar";
+
+.profile {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 93vh;
+    border-radius: 20px;
+
+        // Scroll bar
+
+        -ms-overflow-style: none; /* IE and Edge */
+        scrollbar-width: none; /* Firefox */
+        &::-webkit-scrollbar {
+            display: none;
+        }
+    
+        // End Scroll bar
+
+        @media (max-width: 1030px) {
+            display: none;
+        }
+
+    @media (min-width: 1200px) {
+        flex: 0 0 auto;
+        width: 25%;
+    }
+    @media (min-width: 1400px) {
+        flex: 0 0 auto;
+        width: 30%;
+        margin: auto;
+    }
+    @media (min-width: 1400px) {
+        flex: 0 0 auto;
+        width: 25%;
+        margin: auto;
+    }
+
+    .profile-details {
+        .image {
+            width: 56px;
+            height: 56px;
+            overflow: hidden;
+            border-radius: 50px;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    .school-snippet {
+        .title {
+            font-size: 20px;
+            font-weight: 700;
+        }
+        .details {
+            background: white;
+            box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.15);
+            border-radius: 20px;
+            .serial-no-count {
+                width: 50px;
+                height: 50px;
+                background-color: $grayColor;
+                position: relative;
+                border-radius: 10px;
+                p {
+                    position: relative;
+                    top: 25%;
+                }
+            }
+            .main-text {
+                font-weight: 700;
+            }
+            .small-button {
+                width: 50px;
+                height: 50px;
+                background-color: $primaryColor;
+                position: relative;
+                border-radius: 10px;
+                a {
+                    color: white;
+                    text-decoration: none;
+                    position: relative;
+                    top: 25%;
+                }
+            }
+        }
+    }
+}

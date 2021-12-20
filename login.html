@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+
+    <!-- Bootstarp CSS -->
+
+    <link href="./assets/css/bootstarp/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!--End Bootstarp CSS -->
+
+    <!-- Font Awesome -->
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+        integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+    <!--End Font Awesome -->
+
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!--End Font -->
+
+    <!-- Default CSS -->
+
+    <link rel="stylesheet" href="./assets/css/login-page.css">
+
+    <!--End Default CSS -->
+
+</head>
+
+<body>
+
+    <div class="container login-contain signup-form  ">
+
+
+        <div class="bg-white  py-md-3 p-md-5 the-form ">
+            <div class="container">
+                <div class="col-12 my-3">
+                    <div class="image profile-image mx-auto">
+                        <img src="./assets/img/VSP-Main.png" alt="">
+                    </div>
+
+                </div>
+
+                <ul class="nav nav-pills row mb-3 text-center" id="pills-tab" role="tablist">
+                    <li class="nav-item col-4" role="presentation">
+                        <a class="nav-link vschool-nav-link active " id="pills-student-tab" data-bs-toggle="pill" href="#pills-student"
+                            role="tab" aria-controls="pills-student" aria-selected="true">
+                            <span class="nav-link-dot"></span>
+                            <span>Students</span>
+                        </a>
+                    </li>
+                    <li class="nav-item col-4" role="presentation">
+                        <a class="nav-link" id="pills-teacher-tab" data-bs-toggle="pill" href="#pills-teacher" role="tab"
+                            aria-controls="pills-teacher" aria-selected="false">
+                            <span class="nav-link-dot"></span>
+                            <span>Teachers</span>
+                        </a>
+                    </li>
+                    <li class="nav-item col-4" role="presentation">
+                        <a class="nav-link" id="pills-principal-tab" data-bs-toggle="pill" href="#pills-principal" role="tab"
+                            aria-controls="pills-principal" aria-selected="false">
+                            <span class="nav-link-dot"></span>
+                            <span>Principal</span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-student" role="tabpanel"
+                        aria-labelledby="pills-student-tab">
+                        <div class="heading row  mb-3 text-center ">
+                            
+                            <div class="col-12 my-4">
+                                <h4 class="my-auto">
+                                    Student Login
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="row">
+
+                            <div class="col-md-12 my-3">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="studentRegNo" placeholder="Enter Staff ID">
+                                    <label for="floatingPassword">Student Reg. No.</label>
+                                </div>
+                            </div>
+                            <div class="col-md-12 my-3">
+                                <div class="form-floating">
+                                    <input type="password" class="form-control" id="password" placeholder="Enter Staff ID">
+                                    <label for="floatingPassword">Password</label>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                        <div class="row my-3">
+                            <div class="col-lg-6">
+                                <button type="button"
+                                    class="col-12 btn btn-primary px-4 py-2 vschool-primary-btn text-center me-5 mt-4">
+                                    <a href="">Submit</a>
+                                </button>
+
+                            </div>
+                            <div class="col-lg-6">
+                                <button type="button"
+                                    class="col-12 btn btn-primary px-4 py-2 vschool-secondary-btn text-center me-5 mt-4">
+                                    <a href="/index.html">Back</a>
+                                </button>
+                            </div>
+                            <div class=" link-button ps-3 mt-5">
+                                Not Registered?
+                                <a href="/student-signup.html" class="link-button">
+                                    Sign Up
+
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-teacher" role="tabpanel" aria-labelledby="pills-teacher-tab">
+                        <div class="heading row  mb-3 text-center ">
+                            
+                            <div class="col-12 my-4">
+                                <h4 class="my-auto">
+                                    Teachers Login
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="row">
+
+                            <div class="col-md-12 my-3">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="staffID" placeholder="Enter Staff ID">
+                                    <label for="floatingPassword">Staff ID</label>
+                                </div>
+                            </div>
+                            <div class="col-md-12 my-3">
+                                <div class="form-floating">
+                                    <input type="password" class="form-control" id="password" placeholder="Enter Staff ID">
+                                    <label for="floatingPassword">Password</label>
+                                </div>
+                            </div>
+
+
+
+
+                        </div>
+                        <div class="row my-3">
+                            <div class="col-lg-6">
+                                <button type="button"
+                                    class="col-12 btn btn-primary px-4 py-2 vschool-primary-btn text-center me-5 mt-4">
+                                    <a href="/teacher-dashboard.html">Submit</a>
+                                </button>
+
+                            </div>
+                            <div class="col-lg-6">
+                                <button type="button"
+                                    class="col-12 btn btn-primary px-4 py-2 vschool-secondary-btn text-center me-5 mt-4">
+                                    <a href="/index.html">Back</a>
+                                </button>
+                            </div>
+                            <div class=" link-button ps-3 mt-5">
+                                Not Registered?
+                                <a href="/signup-teacher.html" class="link-button">
+                                    Sign Up
+
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-principal" role="tabpanel" aria-labelledby="pills-principal-tab">
+                        <div class="heading row  mb-3 text-center ">
+                            
+                            <div class="col-12 my-4">
+                                <h4 class="my-auto">
+                                    Principal Login
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="row">
+
+                            <div class="col-md-12 my-3">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="staffID" placeholder="Enter Staff ID">
+                                    <label for="floatingPassword">Staff ID</label>
+                                </div>
+                            </div>
+                            <div class="col-md-12 my-3">
+                                <div class="form-floating">
+                                    <input type="password" class="form-control" id="password" placeholder="Enter Staff ID">
+                                    <label for="floatingPassword">Password</label>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                        <div class="row my-3">
+                            <div class="col-lg-6">
+                                <button type="button"
+                                    class="col-12 btn btn-primary px-4 py-2 vschool-primary-btn text-center me-5 mt-4">
+                                    <a href="/dashboard.html">Submit</a>
+                                </button>
+
+                            </div>
+                            <div class="col-lg-6">
+                                <button type="button"
+                                    class="col-12 btn btn-primary px-4 py-2 vschool-secondary-btn text-center me-5 mt-4">
+                                    <a href="/index.html">Back</a>
+                                </button>
+                            </div>
+                            <div class=" link-button ps-3 mt-5">
+                                Not Registered?
+                                <a href="/principal-signup.html" class="link-button">
+                                    Sign Up
+
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+
+        <!-- Bootstrap JS -->
+        <script src="./assets/js/bootstrap/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"></script>
+        <!-- Bootstrap JS -->
+
+        <!-- default JS -->
+        <script src="./assets/js/login.js"></script>
+        <!-- default JS -->
+
+
+
+</body>
+
+</html>

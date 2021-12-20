@@ -1,0 +1,259 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.background-primary {
+  background-color: #1386da !important;
+  color: white;
+}
+
+.background-secondary {
+  background-color: #b458c7 !important;
+  color: white;
+}
+
+.background-tertiary {
+  background-color: #f4f4f4 !important;
+  color: white;
+}
+
+.stroke-primary {
+  border: 1px #1386da solid !important;
+  color: #1386da;
+}
+
+.stroke-secondary {
+  border: 1px #b458c7 solid !important;
+  color: #b458c7;
+}
+
+.stroke-tertiary {
+  border: 1px #686868 solid !important;
+  color: #686868;
+}
+
+.primary-text-clr {
+  color: #1386da !important;
+}
+
+.secondary-text-clr {
+  color: #b458c7 !important;
+}
+
+.paragraph-text-clr {
+  color: #686868 !important;
+}
+
+.vschool-primary-btn {
+  background-color: #1386da;
+  -webkit-box-shadow: 0px 8px 18px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 8px 18px rgba(0, 0, 0, 0.25);
+  font-weight: 600;
+}
+
+.vschool-primary-btn svg path {
+  fill: white;
+}
+
+.vschool-primary-btn a {
+  text-decoration: none;
+  color: white;
+}
+
+.vschool-primary-btn:hover {
+  background-color: #b458c7;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.vschool-primary-btn:hover a {
+  color: white;
+}
+
+.vschool-secondary-btn {
+  background-color: #b458c7;
+  color: white;
+  border: #b458c7;
+  font-weight: 600;
+}
+
+.vschool-secondary-btn svg path {
+  fill: white;
+}
+
+.vschool-secondary-btn a {
+  text-decoration: none;
+  color: white;
+}
+
+.vschool-secondary-btn:hover {
+  background-color: #1386da;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.vschool-secondary-btn:hover a {
+  color: white;
+}
+
+.vschool-primary-btn-outline {
+  border: 1px #1386da solid !important;
+  color: #1386da;
+  background-color: transparent;
+  font-weight: 600;
+}
+
+.vschool-primary-btn-outline svg path {
+  fill: #1386da !important;
+}
+
+.vschool-primary-btn-outline a {
+  text-decoration: none;
+  color: #1386da;
+}
+
+.vschool-primary-btn-outline:hover {
+  background-color: #1386da;
+  color: white;
+}
+
+.vschool-primary-btn-outline:hover a {
+  color: white;
+}
+
+.vschool-secondary-btn-outline {
+  background-color: transparent;
+  border: 1px #b458c7 solid !important;
+  color: #b458c7;
+  font-weight: 600;
+}
+
+.vschool-secondary-btn-outline svg path {
+  fill: #b458c7 !important;
+}
+
+.vschool-secondary-btn-outline a {
+  text-decoration: none;
+  color: #b458c7;
+}
+
+.vschool-secondary-btn-outline:hover {
+  background-color: #b458c7;
+}
+
+.vschool-secondary-btn-outline:hover a {
+  color: white;
+}
+
+.profile-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.profile-image img {
+  width: 100%;
+}
+
+.small-profile-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.small-profile-image img {
+  width: 100%;
+}
+
+.menu {
+  background-color: transparent;
+  border: none;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+}
+
+.menu a svg path {
+  fill: #000;
+}
+
+.menu:hover {
+  background-color: #1386da;
+  -webkit-box-shadow: 0px 8px 18px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 8px 18px rgba(0, 0, 0, 0.25);
+}
+
+.menu:hover a {
+  color: white;
+}
+
+.menu:hover a svg path {
+  fill: white;
+}
+
+.info-topic {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.link-button {
+  margin-bottom: 40px;
+}
+
+.link-button a {
+  text-decoration: none;
+  color: #1386da;
+}
+
+.link-button svg path {
+  stroke: #1386da;
+}
+
+.link-button:hover a {
+  color: #686868;
+}
+
+.link-button:hover svg path {
+  stroke: #686868;
+}
+
+.vschool-nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1386da !important;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+html body {
+  background: linear-gradient(138.12deg, #b458c7 0%, #1386da 98.36%);
+  background-repeat: no-repeat;
+  border-radius: 20px;
+}
+
+html body .the-form {
+  border-radius: 10px;
+  -webkit-box-shadow: 20px 40px 50px rgba(0, 0, 0, 0.2);
+          box-shadow: 20px 40px 50px rgba(0, 0, 0, 0.2);
+}
+
+html body .the-form label {
+  font-weight: 600;
+}
+
+html body .the-form input {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  outline: none;
+}
+
+html body .the-form input:active {
+  outline: none;
+}
+/*# sourceMappingURL=principal-signup.css.map */

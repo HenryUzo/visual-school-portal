@@ -1,0 +1,394 @@
+@import "./constant";
+
+.main-body {
+    background: linear-gradient(138.12deg, #f5f5f5 0%, #eaf6ff 98.36%);
+
+    border-radius: 20px;
+    overflow-y: scroll;
+
+    // Scroll bar
+
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+    &::-webkit-scrollbar {
+        display: none;
+    }
+
+    // End Scroll bar
+
+    // Media Query
+
+    @media (min-width: 400px) {
+        flex: 0 0 auto;
+        width: 90%;
+        margin: auto;
+
+        height: 80vh;
+    }
+    @media (min-width: 700px) {
+        height: 84vh;
+    }
+    @media (min-width: 1200px) {
+        flex: 0 0 auto;
+        width: 56.33333333%;
+        margin-left: 230px;
+        margin-right: 10px;
+        height: 93vh;
+    }
+    @media (min-width: 1600px) {
+        flex: 0 0 auto;
+        width: 59.33333333%;
+        margin-left: 230px;
+        margin-right: 0px;
+        height: 93vh;
+    }
+}
+
+// Main Body for other Pages
+
+.main-body-inner {
+    background: linear-gradient(138.12deg, #f5f5f5 0%, #eaf6ff 98.36%);
+
+    border-radius: 20px;
+    overflow-y: scroll;
+    height: 84vh;
+
+    // Scroll bar
+
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+    &::-webkit-scrollbar {
+        display: none;
+    }
+
+    // End Scroll bar
+
+    // Media Query
+
+    @media (min-width: 400px) {
+        flex: 0 0 auto;
+        width: 90%;
+        margin: auto;
+
+      
+    }
+    @media (min-width: 700px) {
+        height: 84vh;
+    }
+    @media (min-width: 1200px) {
+        flex: 0 0 auto;
+        width: 80%;
+        margin-left: 230px;
+
+        height: 93vh;
+    }
+    @media (min-width: 1600px) {
+        flex: 0 0 auto;
+        width: 83%;
+    }
+}
+
+//End Main Body for other Pages
+
+// ................................................................
+
+// Name of Page and Bread Crumbs
+
+.welcome {
+    .user {
+        font-weight: 700;
+        font-size: 28px;
+    }
+    .intro {
+        color: $textColor;
+    }
+}
+.notification {
+    background-color: $primaryColor;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+//End Name of Page and Bread Crumbs
+
+// ................................................................
+
+// Big Image Owl Carousel Cards
+
+.main-cta {
+    .container {
+        .CTAs {
+            .pic-CTAs-card {
+                position: relative;
+
+                background-size: 130%;
+                background-repeat: no-repeat;
+                background-position: center center;
+                box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+                border-radius: 20px;
+                overflow: hidden;
+                margin-bottom: 30px;
+
+                .CTAs-text {
+                    position: absolute;
+                    top: 67%;
+
+                    .card-topic {
+                        color: white;
+                        font-size: 20px;
+                        z-index: 2;
+                    }
+                    .card-description {
+                        color: white;
+                        font-weight: 300;
+                    }
+                }
+                .vschool-card {
+                    height: 280px;
+                }
+                .blue {
+                    background: linear-gradient(
+                        156.1deg,
+                        rgba(19, 134, 218, 0) 4.59%,
+                        rgba(19, 134, 218, 0.615) 38.34%,
+                        rgba(16, 16, 16, 0.8118) 99.03%
+                    );
+                    mix-blend-mode: multiply;
+                }
+                .purple {
+                    background: linear-gradient(
+                        335.94deg,
+                        rgba(0, 0, 0, 0.84) -6.19%,
+                        rgba(180, 88, 199, 0.84) 44.9%,
+                        rgba(173, 84, 190, 0) 102.81%,
+                        rgba(173, 84, 190, 0.84) 102.81%
+                    );
+                    mix-blend-mode: multiply;
+                }
+            }
+            .result {
+                background-image: url(/assets/img/result.png);
+            }
+            .teacher {
+                background-image: url(/assets/img/teachers.png);
+            }
+            .school {
+                background-image: url(/assets/img/school.png);
+            }
+        }
+    }
+}
+
+//End Big Image Owl Carousel Cards
+
+// ................................................................
+
+// Small Cards
+
+.small-cards{
+    .small-card-contain{
+        @media (min-width: 1900px) {
+            max-width: 1550px;
+        }
+        .smallCards{
+            border-radius: 20px;
+            .info{
+                background-color: $grayColor;
+                border-radius: 16px;
+            }
+        }
+    }
+}
+
+//End Small Cards
+
+// ................................................................
+
+// Info Blocks
+
+.info-section {
+    .info-contain {
+        @media (min-width: 1900px) {
+            max-width: 1550px;
+        }
+        .teacher-info {
+            .info-row {
+                background: white;
+                border-radius: 20px;
+                .info-heading {
+                    .title {
+                        background-color: $secondaryColor;
+                        box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.15);
+                        border-radius: 20px;
+                        font-weight: 600;
+                        font-size: 22px;
+                        color: white;
+                    }
+                }
+
+                .counter {
+                    background-color: $grayColor;
+                    
+                    border-radius: 20px;
+                    font-weight: bold;
+                    font-size: 54px;
+                }
+               
+            }
+        }
+    }
+    .pupil-info {
+        background: white;
+        border-radius: 20px;
+        .info-box {
+            background-color: $grayColor;
+            border-radius: 20px;
+
+            .total-pupils-number {
+                font-size: 54px;
+                font-weight: 700;
+                color: $primaryColor;
+            }
+        }
+    }
+}
+
+//End Info Blocks
+
+// ................................................................
+
+// Big Table
+
+.big-table {
+    max-width: 1280px;
+    border-radius: 20px;
+    @media (min-width: 700px) {
+        max-width: 650px;
+    }
+    @media (min-width: 1000px) {
+        max-width: 900px;
+    }
+    @media (min-width: 1200px) {
+        max-width: 1030px;
+    }
+    @media (min-width: 1400px) {
+        max-width: 1180px;
+    }
+    @media (min-width: 1600px) {
+        max-width: 1400px;
+    }
+    @media (min-width: 1900px) {
+        max-width: 1700px;
+    }
+  
+    .main-table {
+        .table-row {
+            height: 100px;
+            .user-col {
+                min-width: 230px;
+                @media (min-width: 1000px) {
+                    min-width: 100px;
+                    max-width: 180px;
+                }
+                @media (min-width: 1200px) {
+                    min-width: 100px;
+                    max-width: 130px;
+                }
+
+                .image {
+                    width: 50px;
+                    height: 50px;
+                    overflow: hidden;
+                    border-radius: 6px;
+                    img {
+                        width: 100%;
+                    }
+                }
+                .username {
+                    font-weight: 600;
+                }
+                .view {
+                    text-decoration: none;
+                    color: $textColor;
+                }
+            }
+        }
+    }
+}
+
+// End Big Table
+
+// ................................................................
+
+
+// Profile Image Details
+
+.profile-image-detail{
+    .left{
+
+    }
+    .right{
+        .user-name{
+            font-weight: 700;
+        }
+        .little-details{
+            font-size: 14px;
+            color: $textColor;
+        }
+    }
+}
+
+
+.top-bar {
+    .big-table-header {
+        .user {
+            font-weight: 700;
+            font-size: 20px;
+        }
+        .intro {
+            color: $textColor;
+            font-size: 14px;
+        }
+    }
+}
+
+.pre-school-info-contain{
+    // @media (min-width:1200px) {
+    //     min-width: 1020px;
+    //     max-width: 1200px;
+    // }
+    // @media (min-width:1600px) {
+    //     min-width: 1420px;
+    // }
+    // @media (min-width:1900px) {
+    //     min-width: 1720px;
+    // }
+    @media (min-width: 700px) {
+        max-width: 650px;
+    }
+    @media (min-width: 1000px) {
+        max-width: 900px;
+    }
+    @media (min-width: 1200px) {
+        max-width: 1030px;
+    }
+    @media (min-width: 1400px) {
+        max-width: 1180px;
+    }
+    @media (min-width: 1600px) {
+        max-width: 1400px;
+    }
+    @media (min-width: 1900px) {
+        max-width: 1700px;
+    }
+ border-radius: 20px;
+
+}
+
+.breadcrumb{
+    .content{
+        background-color: transparent;
+        border:none;
+    }
+}
