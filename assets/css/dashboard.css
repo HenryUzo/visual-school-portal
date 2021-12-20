@@ -222,7 +222,7 @@
   stroke: #686868;
 }
 
-.nav-link.active, .nav-pills .show > .nav-link {
+.vschool-nav-link.active, .nav-pills .show > .nav-link {
   color: #fff;
   background-color: #1386da !important;
 }
@@ -451,7 +451,7 @@
   stroke: #686868;
 }
 
-.nav-link.active, .nav-pills .show > .nav-link {
+.vschool-nav-link.active, .nav-pills .show > .nav-link {
   color: #fff;
   background-color: #1386da !important;
 }
@@ -563,6 +563,10 @@
   margin-top: 25vh;
 }
 
+.nav .side-nav .teacher-logout {
+  margin-top: 30vh;
+}
+
 .nav .side-nav .active,
 .nav .side-nav .vschool-primary-btn {
   background-color: #1386da;
@@ -578,6 +582,43 @@
 .nav .side-nav .active a svg path,
 .nav .side-nav .vschool-primary-btn a svg path {
   fill: white;
+}
+
+.vschool-logo {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+}
+
+.vschool-logo img {
+  width: 100%;
+}
+
+.profile-det {
+  position: relative;
+}
+
+.profile-det .image {
+  width: 56px;
+  height: 56px;
+  overflow: hidden;
+  border-radius: 50px;
+  left: 71%;
+  top: 35%;
+  position: relative;
+}
+
+.profile-det .image img {
+  width: 100%;
+}
+
+@media (max-width: 450px) {
+  .profile-det .image {
+    width: 36px;
+    height: 36px;
+    left: 31%;
+    top: 35%;
+  }
 }
 
 * {
@@ -804,7 +845,7 @@
   stroke: #686868;
 }
 
-.nav-link.active, .nav-pills .show > .nav-link {
+.vschool-nav-link.active, .nav-pills .show > .nav-link {
   color: #fff;
   background-color: #1386da !important;
 }
@@ -1085,16 +1126,6 @@
   }
 }
 
-.big-table .top-bar .big-table-header .user {
-  font-weight: 700;
-  font-size: 20px;
-}
-
-.big-table .top-bar .big-table-header .intro {
-  color: #686868;
-  font-size: 14px;
-}
-
 .big-table .main-table .table-row {
   height: 100px;
 }
@@ -1144,6 +1175,61 @@
 .profile-image-detail .right .little-details {
   font-size: 14px;
   color: #686868;
+}
+
+.top-bar .big-table-header .user {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.top-bar .big-table-header .intro {
+  color: #686868;
+  font-size: 14px;
+}
+
+.pre-school-info-contain {
+  border-radius: 20px;
+}
+
+@media (min-width: 700px) {
+  .pre-school-info-contain {
+    max-width: 650px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .pre-school-info-contain {
+    max-width: 900px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .pre-school-info-contain {
+    max-width: 1030px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .pre-school-info-contain {
+    max-width: 1180px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .pre-school-info-contain {
+    max-width: 1400px;
+  }
+}
+
+@media (min-width: 1900px) {
+  .pre-school-info-contain {
+    max-width: 1700px;
+  }
+}
+
+.breadcrumb .content {
+  background-color: transparent;
+  border: none;
 }
 
 * {
@@ -1370,7 +1456,7 @@
   stroke: #686868;
 }
 
-.nav-link.active, .nav-pills .show > .nav-link {
+.vschool-nav-link.active, .nav-pills .show > .nav-link {
   color: #fff;
   background-color: #1386da !important;
 }
@@ -1599,7 +1685,7 @@
   stroke: #686868;
 }
 
-.nav-link.active, .nav-pills .show > .nav-link {
+.vschool-nav-link.active, .nav-pills .show > .nav-link {
   color: #fff;
   background-color: #1386da !important;
 }

@@ -563,6 +563,10 @@
   margin-top: 25vh;
 }
 
+.nav .side-nav .teacher-logout {
+  margin-top: 30vh;
+}
+
 .nav .side-nav .active,
 .nav .side-nav .vschool-primary-btn {
   background-color: #1386da;
@@ -578,6 +582,43 @@
 .nav .side-nav .active a svg path,
 .nav .side-nav .vschool-primary-btn a svg path {
   fill: white;
+}
+
+.vschool-logo {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+}
+
+.vschool-logo img {
+  width: 100%;
+}
+
+.profile-det {
+  position: relative;
+}
+
+.profile-det .image {
+  width: 56px;
+  height: 56px;
+  overflow: hidden;
+  border-radius: 50px;
+  left: 71%;
+  top: 35%;
+  position: relative;
+}
+
+.profile-det .image img {
+  width: 100%;
+}
+
+@media (max-width: 450px) {
+  .profile-det .image {
+    width: 36px;
+    height: 36px;
+    left: 31%;
+    top: 35%;
+  }
 }
 
 * {
@@ -1184,6 +1225,11 @@
   .pre-school-info-contain {
     max-width: 1700px;
   }
+}
+
+.breadcrumb .content {
+  background-color: transparent;
+  border: none;
 }
 
 html {

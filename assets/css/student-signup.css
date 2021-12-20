@@ -222,6 +222,11 @@
   stroke: #686868;
 }
 
+.vschool-nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1386da !important;
+}
+
 html {
   overflow-x: hidden;
 }
