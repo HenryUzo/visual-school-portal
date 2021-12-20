@@ -564,7 +564,7 @@
 }
 
 .nav .side-nav .teacher-logout {
-  margin-top: 35vh;
+  margin-top: 30vh;
 }
 
 .nav .side-nav .active,
@@ -1225,6 +1225,11 @@
   .pre-school-info-contain {
     max-width: 1700px;
   }
+}
+
+.breadcrumb .content {
+  background-color: transparent;
+  border: none;
 }
 
 * {
