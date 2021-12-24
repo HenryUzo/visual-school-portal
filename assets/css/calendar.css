@@ -2,9 +2,50 @@
   font-family: "Poppins", sans-serif;
 }
 
+.background-primary {
+  background-color: #1386da !important;
+  color: white;
+}
+
+.background-secondary {
+  background-color: #b458c7 !important;
+  color: white;
+}
+
+.background-tertiary {
+  background-color: #f4f4f4 !important;
+  color: white;
+}
+
+.stroke-primary {
+  border: 1px #1386da solid !important;
+  color: #1386da;
+}
+
+.stroke-secondary {
+  border: 1px #b458c7 solid !important;
+  color: #b458c7;
+}
+
+.stroke-tertiary {
+  border: 1px #686868 solid !important;
+  color: #686868;
+}
+
+.primary-text-clr {
+  color: #1386da !important;
+}
+
+.secondary-text-clr {
+  color: #b458c7 !important;
+}
+
+.paragraph-text-clr {
+  color: #686868 !important;
+}
+
 .vschool-primary-btn {
   background-color: #1386da;
-  color: white;
   -webkit-box-shadow: 0px 8px 18px rgba(0, 0, 0, 0.25);
           box-shadow: 0px 8px 18px rgba(0, 0, 0, 0.25);
   font-weight: 600;
@@ -12,6 +53,21 @@
 
 .vschool-primary-btn svg path {
   fill: white;
+}
+
+.vschool-primary-btn a {
+  text-decoration: none;
+  color: white;
+}
+
+.vschool-primary-btn:hover {
+  background-color: #b458c7;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.vschool-primary-btn:hover a {
+  color: white;
 }
 
 .vschool-secondary-btn {
@@ -23,6 +79,92 @@
 
 .vschool-secondary-btn svg path {
   fill: white;
+}
+
+.vschool-secondary-btn a {
+  text-decoration: none;
+  color: white;
+}
+
+.vschool-secondary-btn:hover {
+  background-color: #1386da;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.vschool-secondary-btn:hover a {
+  color: white;
+}
+
+.vschool-primary-btn-outline {
+  border: 1px #1386da solid !important;
+  color: #1386da;
+  background-color: transparent;
+  font-weight: 600;
+}
+
+.vschool-primary-btn-outline svg path {
+  fill: #1386da !important;
+}
+
+.vschool-primary-btn-outline a {
+  text-decoration: none;
+  color: #1386da;
+}
+
+.vschool-primary-btn-outline:hover {
+  background-color: #1386da;
+  color: white;
+}
+
+.vschool-primary-btn-outline:hover a {
+  color: white;
+}
+
+.vschool-secondary-btn-outline {
+  background-color: transparent;
+  border: 1px #b458c7 solid !important;
+  color: #b458c7;
+  font-weight: 600;
+}
+
+.vschool-secondary-btn-outline svg path {
+  fill: #b458c7 !important;
+}
+
+.vschool-secondary-btn-outline a {
+  text-decoration: none;
+  color: #b458c7;
+}
+
+.vschool-secondary-btn-outline:hover {
+  background-color: #b458c7;
+}
+
+.vschool-secondary-btn-outline:hover a {
+  color: white;
+}
+
+.profile-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.profile-image img {
+  width: 100%;
+}
+
+.small-profile-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.small-profile-image img {
+  width: 100%;
 }
 
 .menu {
@@ -78,6 +220,11 @@
 
 .link-button:hover svg path {
   stroke: #686868;
+}
+
+.vschool-nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1386da !important;
 }
 
 .calender {

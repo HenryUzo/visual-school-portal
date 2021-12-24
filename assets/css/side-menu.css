@@ -338,6 +338,10 @@
   margin-top: 30vh;
 }
 
+.nav .side-nav .student-logout {
+  margin-top: 40vh;
+}
+
 .nav .side-nav .active,
 .nav .side-nav .vschool-primary-btn {
   background-color: #1386da;

@@ -188,8 +188,23 @@
 
 .small-cards{
     .small-card-contain{
+        @media (min-width: 700px) {
+            max-width: 650px;
+        }
+        @media (min-width: 1000px) {
+            max-width: 900px;
+        }
+        @media (min-width: 1200px) {
+            max-width: 1030px;
+        }
+        @media (min-width: 1400px) {
+            max-width: 1180px;
+        }
+        @media (min-width: 1600px) {
+            max-width: 1400px;
+        }
         @media (min-width: 1900px) {
-            max-width: 1550px;
+            max-width: 1700px;
         }
         .smallCards{
             border-radius: 20px;
@@ -387,6 +402,12 @@
 }
 
 .breadcrumb{
+    .content{
+        background-color: transparent;
+        border:none;
+    }
+}
+.vschool-list-group{
     .content{
         background-color: transparent;
         border:none;

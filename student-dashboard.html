@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Principal-Result</title>
+    <title>dashboard-principal</title>
 
     <!-- Bootstarp CSS -->
 
@@ -22,6 +22,12 @@
 
     <!--End Font Awesome -->
 
+    <!-- Owl Carousel for Sliders -->
+
+    <link rel="stylesheet" href="./assets/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+
+    <!--End Owl Carousel for Sliders -->
 
     <!-- Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -34,7 +40,7 @@
 
     <!-- Default CSS -->
 
-    <link rel="stylesheet" href="./assets/css/teacher-result.css">
+    <link rel="stylesheet" href="./assets/css/student-dashboard.css">
 
     <!--End Default CSS -->
 
@@ -75,12 +81,12 @@
 
         <div class=" py-5 px-4 side-nav">
             <div class="vschool-logo image mb-4 ">
-
-                <img src="./assets/img/VSP-Main.png" alt="">
-
+            
+                    <img src="./assets/img/VSP-Main.png" alt="">
+         
             </div>
-            <button type="button" class="btn btn-primary px-3 py-2 menu   my-3"><a
-                    href="/teacher-dashboard.html">
+            <button type="button" class="btn btn-primary px-3 py-2 menu vschool-primary-btn active   my-3"><a
+                    href="/student-dashboard.html">
                     <svg class="me-2" width="28" height="28" viewBox="0 0 28 28" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -88,24 +94,15 @@
                             fill="white" />
                     </svg> Dashboard
                 </a> </button>
-            <button type="button" class="btn btn-primary px-3 py-2  vschool-primary-btn active  menu  my-3">
-                <a href="/teacher-result.html"><svg class="me-2" width="28" height="28" viewBox="0 0 28 28" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M24.7767 6.16984L14.2767 2.66984C14.0971 2.61001 13.9029 2.61001 13.7233 2.66984L3.24013 6.16437L3.23903 6.1647L3.22328 6.16995C3.22022 6.17104 3.21748 6.17268 3.21453 6.17377C3.17659 6.18679 3.13961 6.20243 3.10384 6.22059C3.0998 6.22277 3.09553 6.22441 3.09148 6.2266C3.05612 6.24549 3.02209 6.2668 2.98966 6.29037C2.98254 6.29551 2.9755 6.30076 2.96855 6.30612C2.93694 6.33 2.90698 6.35598 2.87886 6.38388C2.87634 6.38662 2.87405 6.38946 2.87153 6.39209C2.84564 6.41907 2.82149 6.44767 2.79923 6.47773C2.79464 6.48385 2.78994 6.48976 2.78556 6.49599C2.7626 6.52845 2.74188 6.56243 2.72355 6.59771C2.7207 6.60318 2.7183 6.60865 2.71556 6.61412C2.69845 6.64872 2.68366 6.68442 2.67127 6.72098C2.67017 6.72437 2.66864 6.72765 2.66755 6.73115C2.6552 6.76999 2.64558 6.80964 2.63878 6.84982C2.63736 6.85824 2.63616 6.86666 2.63495 6.87498C2.62866 6.91636 2.62533 6.95814 2.625 6.99999V15.75C2.625 15.9821 2.71719 16.2046 2.88128 16.3687C3.04538 16.5328 3.26794 16.625 3.5 16.625C3.73206 16.625 3.95462 16.5328 4.11872 16.3687C4.28281 16.2046 4.375 15.9821 4.375 15.75V8.21406L8.04836 9.43851C7.07457 11.0109 6.76297 12.905 7.1817 14.7065C7.60043 16.508 8.71542 18.0705 10.2829 19.0522C8.19563 19.8415 6.41454 21.2759 5.19859 23.147C5.13427 23.2433 5.08967 23.3513 5.06739 23.4649C5.04511 23.5785 5.04559 23.6953 5.0688 23.8087C5.09201 23.9221 5.13749 24.0298 5.2026 24.1255C5.26772 24.2212 5.35117 24.3031 5.44814 24.3663C5.5451 24.4295 5.65364 24.4728 5.76748 24.4938C5.88132 24.5148 5.99818 24.513 6.11131 24.4885C6.22444 24.4639 6.33158 24.4172 6.42652 24.351C6.52147 24.2848 6.60234 24.2004 6.66444 24.1027C7.45937 22.8815 8.54663 21.8781 9.82759 21.1834C11.1085 20.4888 12.5427 20.125 13.9998 20.125C15.457 20.125 16.8911 20.4888 18.1721 21.1834C19.453 21.8781 20.5403 22.8815 21.3352 24.1027C21.3977 24.1996 21.4787 24.2833 21.5736 24.3488C21.6684 24.4143 21.7753 24.4604 21.8881 24.4844C22.0008 24.5085 22.1172 24.51 22.2306 24.489C22.3439 24.4679 22.452 24.4247 22.5486 24.3617C22.6451 24.2987 22.7283 24.2173 22.7933 24.1221C22.8583 24.0269 22.9039 23.9197 22.9274 23.8069C22.9508 23.694 22.9518 23.5776 22.9301 23.4644C22.9085 23.3511 22.8647 23.2433 22.8012 23.147C21.5853 21.276 19.8042 19.8416 17.717 19.0524C19.2845 18.0706 20.3995 16.5081 20.8182 14.7066C21.237 12.905 20.9254 11.011 19.9515 9.43851L24.7767 7.83015C24.951 7.7721 25.1026 7.66069 25.21 7.51169C25.3174 7.36269 25.3752 7.18367 25.3752 6.99999C25.3752 6.81631 25.3174 6.63729 25.21 6.4883C25.1026 6.3393 24.951 6.22788 24.7767 6.16984V6.16984ZM19.25 13.125C19.2502 13.955 19.0536 14.7732 18.6764 15.5125C18.2992 16.2518 17.752 16.8911 17.0799 17.378C16.4077 17.8649 15.6297 18.1855 14.8096 18.3135C13.9896 18.4415 13.1509 18.3733 12.3623 18.1144C11.5737 17.8554 10.8578 17.4133 10.2732 16.8241C9.6886 16.2349 9.25203 15.5155 8.99931 14.7249C8.74658 13.9344 8.68489 13.0951 8.8193 12.2761C8.95371 11.4571 9.2804 10.6816 9.77255 10.0133L13.7233 11.3301C13.9029 11.39 14.0971 11.39 14.2767 11.3301L18.2275 10.0133C18.8924 10.9144 19.2508 12.0051 19.25 13.125V13.125ZM18.233 8.1667C18.2308 8.16746 18.2287 8.16801 18.2265 8.16888L14 9.57763L9.77342 8.16888C9.77123 8.16801 9.76905 8.16735 9.76686 8.1667L6.26708 6.99999L14 4.42235L21.733 6.99999L18.233 8.1667Z"
-                            fill="#686868" />
-                    </svg>
-                    View Results</a></button>
-
             <button type="button" class="btn btn-primary px-3 py-2  menu  my-3">
-                <a href="/teacher-upload.html"><svg class="me-2" width="28" height="28" viewBox="0 0 28 28" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
+                <a href="/student-result.html"><svg class="me-2" width="28" height="28" viewBox="0 0 28 28"
+                        fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
                             d="M24.7767 6.16984L14.2767 2.66984C14.0971 2.61001 13.9029 2.61001 13.7233 2.66984L3.24013 6.16437L3.23903 6.1647L3.22328 6.16995C3.22022 6.17104 3.21748 6.17268 3.21453 6.17377C3.17659 6.18679 3.13961 6.20243 3.10384 6.22059C3.0998 6.22277 3.09553 6.22441 3.09148 6.2266C3.05612 6.24549 3.02209 6.2668 2.98966 6.29037C2.98254 6.29551 2.9755 6.30076 2.96855 6.30612C2.93694 6.33 2.90698 6.35598 2.87886 6.38388C2.87634 6.38662 2.87405 6.38946 2.87153 6.39209C2.84564 6.41907 2.82149 6.44767 2.79923 6.47773C2.79464 6.48385 2.78994 6.48976 2.78556 6.49599C2.7626 6.52845 2.74188 6.56243 2.72355 6.59771C2.7207 6.60318 2.7183 6.60865 2.71556 6.61412C2.69845 6.64872 2.68366 6.68442 2.67127 6.72098C2.67017 6.72437 2.66864 6.72765 2.66755 6.73115C2.6552 6.76999 2.64558 6.80964 2.63878 6.84982C2.63736 6.85824 2.63616 6.86666 2.63495 6.87498C2.62866 6.91636 2.62533 6.95814 2.625 6.99999V15.75C2.625 15.9821 2.71719 16.2046 2.88128 16.3687C3.04538 16.5328 3.26794 16.625 3.5 16.625C3.73206 16.625 3.95462 16.5328 4.11872 16.3687C4.28281 16.2046 4.375 15.9821 4.375 15.75V8.21406L8.04836 9.43851C7.07457 11.0109 6.76297 12.905 7.1817 14.7065C7.60043 16.508 8.71542 18.0705 10.2829 19.0522C8.19563 19.8415 6.41454 21.2759 5.19859 23.147C5.13427 23.2433 5.08967 23.3513 5.06739 23.4649C5.04511 23.5785 5.04559 23.6953 5.0688 23.8087C5.09201 23.9221 5.13749 24.0298 5.2026 24.1255C5.26772 24.2212 5.35117 24.3031 5.44814 24.3663C5.5451 24.4295 5.65364 24.4728 5.76748 24.4938C5.88132 24.5148 5.99818 24.513 6.11131 24.4885C6.22444 24.4639 6.33158 24.4172 6.42652 24.351C6.52147 24.2848 6.60234 24.2004 6.66444 24.1027C7.45937 22.8815 8.54663 21.8781 9.82759 21.1834C11.1085 20.4888 12.5427 20.125 13.9998 20.125C15.457 20.125 16.8911 20.4888 18.1721 21.1834C19.453 21.8781 20.5403 22.8815 21.3352 24.1027C21.3977 24.1996 21.4787 24.2833 21.5736 24.3488C21.6684 24.4143 21.7753 24.4604 21.8881 24.4844C22.0008 24.5085 22.1172 24.51 22.2306 24.489C22.3439 24.4679 22.452 24.4247 22.5486 24.3617C22.6451 24.2987 22.7283 24.2173 22.7933 24.1221C22.8583 24.0269 22.9039 23.9197 22.9274 23.8069C22.9508 23.694 22.9518 23.5776 22.9301 23.4644C22.9085 23.3511 22.8647 23.2433 22.8012 23.147C21.5853 21.276 19.8042 19.8416 17.717 19.0524C19.2845 18.0706 20.3995 16.5081 20.8182 14.7066C21.237 12.905 20.9254 11.011 19.9515 9.43851L24.7767 7.83015C24.951 7.7721 25.1026 7.66069 25.21 7.51169C25.3174 7.36269 25.3752 7.18367 25.3752 6.99999C25.3752 6.81631 25.3174 6.63729 25.21 6.4883C25.1026 6.3393 24.951 6.22788 24.7767 6.16984V6.16984ZM19.25 13.125C19.2502 13.955 19.0536 14.7732 18.6764 15.5125C18.2992 16.2518 17.752 16.8911 17.0799 17.378C16.4077 17.8649 15.6297 18.1855 14.8096 18.3135C13.9896 18.4415 13.1509 18.3733 12.3623 18.1144C11.5737 17.8554 10.8578 17.4133 10.2732 16.8241C9.6886 16.2349 9.25203 15.5155 8.99931 14.7249C8.74658 13.9344 8.68489 13.0951 8.8193 12.2761C8.95371 11.4571 9.2804 10.6816 9.77255 10.0133L13.7233 11.3301C13.9029 11.39 14.0971 11.39 14.2767 11.3301L18.2275 10.0133C18.8924 10.9144 19.2508 12.0051 19.25 13.125V13.125ZM18.233 8.1667C18.2308 8.16746 18.2287 8.16801 18.2265 8.16888L14 9.57763L9.77342 8.16888C9.77123 8.16801 9.76905 8.16735 9.76686 8.1667L6.26708 6.99999L14 4.42235L21.733 6.99999L18.233 8.1667Z"
                             fill="#686868" />
                     </svg>
-                    Upload Results</a></button>
-
+                   View Results</a></button>
+      
             <button type="button" class="btn btn-primary px-3 py-2 menu my-3">
                 <a href="">
                     <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -118,7 +115,7 @@
                     </svg>
                     Settings
                 </a> </button>
-            <button type="button" class="btn btn-primary teacher-logout px-3 py-2 menu">
+            <button type="button" class="btn btn-primary student-logout px-3 py-2 menu">
                 <a href="/index.html" class="">
                     <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" clip-rule="evenodd"
@@ -131,12 +128,11 @@
         </div>
     </div>
     <div class="row">
-        <div class="main-body-inner  my-3">
+        <div class="main-body  my-3">
             <div class="row mx-4 my-5 mb-2">
-                <div class="col-md-11 welcome mb-3">
-                    <h2 class="user">Results</h2>
-
-
+                <div class="col-md-11 welcome">
+                    <h2 class="user">Hello <span class="first-name">John</span></h2>
+                    <p class="intro">Welcome back, what do you want to do today?</p>
                 </div>
                 <div class="col-md-1 d-none d-md-block">
                     <div class="notification text-center pt-2">
@@ -149,64 +145,143 @@
                     </div>
                 </div>
             </div>
-            <div class="row mx-4 my-4 mb-1 top-bar">
-                <div class="col-md-8 big-table-header ">
-                    <h2 class="user">Year</h2>
-                    <p class="intro">
-                        Sessions of results
-                    </p>
-
-                </div>
-
-
-            </div>
-            <div class="small-cards sessions">
-                <div class="container small-card-contain">
-                    <div class="row">
-                        <div class="col-6 col-md-4 col-lg-2">
-                            <div class="smallCards card px-3 pt-3">
-                                <div class="info px-3 py-3">
-                                    <div class="image mb-3">
-                                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M14 23H22V25H14V23Z" fill="black" />
-                                            <path d="M10 23H12V25H10V23Z" fill="black" />
-                                            <path d="M14 18H22V20H14V18Z" fill="black" />
-                                            <path d="M10 18H12V20H10V18Z" fill="black" />
-                                            <path d="M14 13H22V15H14V13Z" fill="black" />
-                                            <path d="M10 13H12V15H10V13Z" fill="black" />
-                                            <path
-                                                d="M25 5H22V4C22 3.46957 21.7893 2.96086 21.4142 2.58579C21.0391 2.21071 20.5304 2 20 2H12C11.4696 2 10.9609 2.21071 10.5858 2.58579C10.2107 2.96086 10 3.46957 10 4V5H7C6.46957 5 5.96086 5.21071 5.58579 5.58579C5.21071 5.96086 5 6.46957 5 7V28C5 28.5304 5.21071 29.0391 5.58579 29.4142C5.96086 29.7893 6.46957 30 7 30H25C25.5304 30 26.0391 29.7893 26.4142 29.4142C26.7893 29.0391 27 28.5304 27 28V7C27 6.46957 26.7893 5.96086 26.4142 5.58579C26.0391 5.21071 25.5304 5 25 5V5ZM12 4H20V8H12V4ZM25 28H7V7H10V10H22V7H25V28Z"
-                                                fill="black" />
-                                        </svg>
-
-                                    </div>
-                                    <p class="session mb-1">
-                                        2021/2022
-                                    </p>
-                                </div>
-                                <div class="link-button text-start ps-3 my-3">
-                                    <a href="/teacher-result-class.html" class="">
-                                        Go <svg class="mx-1" width="23" height="23" viewBox="0 0 23 23" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M3.83334 11.5H19.1667" stroke="#1386DA" stroke-width="2.33333"
-                                                stroke-linecap="round" stroke-linejoin="round" />
-                                            <path d="M12.4583 4.79166L19.1667 11.5L12.4583 18.2083" stroke="#1386DA"
-                                                stroke-width="2.33333" stroke-linecap="round" stroke-linejoin="round" />
-                                        </svg>
-
-                                    </a>
-                                </div>
+            <div class="main-cta">
+                <div class="container">
+                    <div class="CTAs owl-carousel">
+                        <div class="item pic-CTAs-card result ">
+                            <a href="/student-result.html" class="vschool-card blue card">
+                            </a>
+                            <div class="CTAs-text px-3">
+                                <h6 class="card-topic">View Results</h6>
+                                
                             </div>
                         </div>
-
-
+                    
+                      
                     </div>
                 </div>
             </div>
-
+          
         </div>
+        <div class="profile my-3">
+            <div class="row mt-5 mx-2">
+                <div class="col-3 profile-details ">
+                    <div class="image">
+                        <img src="./assets/img/profile-pics.png" alt="">
+                    </div>
+                </div>
+                <div class="col-9">
+                    <h5 class="user-name">
+                        <span class="first-name">John</span> <span class="Last-name">Udoma</span>
+                    </h5>
+                    <p><span class="position">Student</span>, <span class="current-school">Springfield</span> School
+                    </p>
+                </div>
+                <div class="text-end link-button text-start ps-3 my-1">
+                    <a href="#" class="">
+                        Edit Profile<svg class="mx-1" width="23" height="23" viewBox="0 0 23 23" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3.83334 11.5H19.1667" stroke="#1386DA" stroke-width="2.33333"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M12.4583 4.79166L19.1667 11.5L12.4583 18.2083" stroke="#1386DA"
+                                stroke-width="2.33333" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
 
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="calender" id="calen">
+                        <div class="majorDate" id="majorDate">
+                            <i class="fas fa-angle-left left"></i>
+                            <div class="getdate pt-3">
+                                <div class="month">
+                                    <p id="month">MAY</p>
+                                </div>
+                                <div class="year">
+                                    <p id="year">2018</p>
+                                </div>
+                            </div>
+                            <i class="fas fa-angle-right right"></i>
+                        </div>
+                        <div class="dateContainer">
+                            <div class="days">
+                                <p class="day box">SUN</p>
+                                <p class="day box">MON</p>
+                                <p class="day box">TUS</p>
+                                <p class="day box">WED</p>
+                                <p class="day box">THU</p>
+                                <p class="day box">FRI</p>
+                                <p class="day box">SAT</p>
+                            </div>
+                            <div class="dayCount" id="dayCount">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="school-snippet">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 ">
+                            <h4 class="title">
+                                Favourite Schools
+                            </h4>
+                        </div>
+                        <div class="col-12">
+                            <div class="row details py-2 px-2 my-3">
+                                <div class="col-2 serial-no-count text-center">
+                                    <p class="">1</p>
+                                </div>
+                                <div class="col-7 ps-4">
+                                    <p class="school-name main-text mb-1 ">Divine Square</p>
+                                    <div class="LGA sub-text">Akwa</div>
+                                </div>
+                                <div class="col-2 text-center align-content-center">
+                                    <div class="small-button ">
+                                        <a href="#" class="">Go</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="row details py-2 px-2 my-3">
+                                <div class="col-2 serial-no-count text-center">
+                                    <p class="">1</p>
+                                </div>
+                                <div class="col-7 ps-4">
+                                    <p class="school-name main-text mb-1 ">Divine Square</p>
+                                    <div class="LGA sub-text">Akwa</div>
+                                </div>
+                                <div class="col-2 text-center align-content-center">
+                                    <div class="small-button ">
+                                        <a href="#" class="">Go</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="row details py-2 px-2 my-3">
+                                <div class="col-2 serial-no-count text-center">
+                                    <p class="">1</p>
+                                </div>
+                                <div class="col-7 ps-4">
+                                    <p class="school-name main-text mb-1 ">Divine Square</p>
+                                    <div class="LGA sub-text">Akwa</div>
+                                </div>
+                                <div class="col-2 text-center align-content-center">
+                                    <div class="small-button ">
+                                        <a href="#" class="">Go</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
 
@@ -231,7 +306,7 @@
     <!--End Calendar JS -->
 
     <!-- default JS -->
-    <script src="./assets/js/index.js"></script>
+    <script src="./assets/js/student-dashboard.js"></script>
     <!-- default JS -->
 
 </body>

@@ -1275,21 +1275,52 @@ html {
   overflow-x: hidden;
 }
 
-html .big-table .main-table .table-row .user-col {
-  min-width: 230px;
+html .comment-info .pre-school-info-contain {
+  border-radius: 20px;
+}
+
+@media (min-width: 700px) {
+  html .comment-info .pre-school-info-contain {
+    max-width: 650px;
+  }
 }
 
 @media (min-width: 1000px) {
-  html .big-table .main-table .table-row .user-col {
-    min-width: 100px;
-    max-width: 180px;
+  html .comment-info .pre-school-info-contain {
+    max-width: 900px;
   }
 }
 
 @media (min-width: 1200px) {
-  html .big-table .main-table .table-row .user-col {
-    min-width: 230px;
-    max-width: 230px;
+  html .comment-info .pre-school-info-contain {
+    max-width: 1030px;
   }
 }
-/*# sourceMappingURL=teacher-result-table.css.map */
+
+@media (min-width: 1400px) {
+  html .comment-info .pre-school-info-contain {
+    max-width: 1180px;
+  }
+}
+
+@media (min-width: 1600px) {
+  html .comment-info .pre-school-info-contain {
+    max-width: 1400px;
+  }
+}
+
+@media (min-width: 1900px) {
+  html .comment-info .pre-school-info-contain {
+    max-width: 1700px;
+  }
+}
+
+html .topic {
+  font-weight: 500;
+  color: #686868;
+}
+
+html .details {
+  font-weight: 600;
+}
+/*# sourceMappingURL=principal-student-result-view.css.map */

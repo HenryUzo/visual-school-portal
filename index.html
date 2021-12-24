@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>dashboard-principal</title>
+    <title>Visual School</title>
 
     <!-- Bootstarp CSS -->
 
@@ -49,7 +49,7 @@
 <body>
 
     <div class="container-fluid banner-background pb-5">
-        <div class="container-fluid nav">
+        <div class="container-fluid nav ">
             <div class="mobile-nav container">
                 <div class="row">
                     <div class="col-md-4 col-3 my-4 mt-5 ps-md-5 ps-3">
@@ -89,21 +89,21 @@
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse mx-5 text-end" id="navbarSupportedContent">
+                <div class="collapse navbar-collapse index-nav" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
-                        <li class="nav-item">
+                        <li class="nav-item  mx-3">
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">About Us</a>
+                        <li class="nav-item  mx-3">
+                            <a class="nav-link" href="#about-us">About Us</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact Us</a>
+                        <li class="nav-item mx-3">
+                            <a class="nav-link" href="#contact-us">Contact Us</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item mx-3">
                             <a class="nav-link" href="/login.html">Sign In</a>
                         </li>
-                        <li class="nav-item dropdown">
+                        <li class="nav-item dropdown  mx-3">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 Sign Up
@@ -191,53 +191,53 @@
             </div>
         </div>
     </div>
-    <div class="container vschool-contain">
-        <div class="row">
+    <div class="container vschool-contain  py-5" id="about-us">
+        <div class="row ">
             <div class="col-6">
-                <div class="image">
+                <div class="image cap-image">
                     <img src="./assets/img/about-us-image.png" alt="">
                 </div>
             </div>
             <div class="col-6 my-auto">
-                <h5>
+                <h5 class="my-3 small-topic ">
                     About Us
                 </h5>
-                <h3>
+                <h3 class="my-3 big-topic">
                     We are the future of Education
                 </h3>
-                <p>
+                <p class="my-4">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ligula eros, in senectus at. Neque
                     malesuada sollicitudin et id. Senectus enim, diam tortor fames quis nisl dolor. Nisl morbi gravida
                     pharetra venenatis vulputate diam est. Etiam
                 </p>
-                <h5>
+                <h5 class="my-4 topic">
                     Why Visual Portal?
                 </h5>
-                <div class="list-group list-group-horizontal">
-                    <div class="image list-group-item">
+                <div class="list-group list-group-horizontal my-3 vschool-list-group">
+                    <div class="image list-group-item content">
                         <img src="./assets/img/emojione_ballot-box-with-check.svg" alt="">
                     </div>
-                    <div class="list-group-item">
+                    <div class="list-group-item content">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ligula eros, in senectus at. Neque
                         malesuada sollicitudin et id.
                     </div>
 
                 </div>
-                <div class="list-group list-group-horizontal">
-                    <div class="image list-group-item">
+                <div class="list-group list-group-horizontal my-3 vschool-list-group">
+                    <div class="image list-group-item content">
                         <img src="./assets/img/emojione_ballot-box-with-check.svg" alt="">
                     </div>
-                    <div class="list-group-item">
+                    <div class="list-group-item content">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ligula eros, in senectus at. Neque
                         malesuada sollicitudin et id.
                     </div>
 
                 </div>
-                <div class="list-group list-group-horizontal">
-                    <div class="image list-group-item">
+                <div class="list-group list-group-horizontal my-3 vschool-list-group">
+                    <div class="image list-group-item content">
                         <img src="./assets/img/emojione_ballot-box-with-check.svg" alt="">
                     </div>
-                    <div class="list-group-item">
+                    <div class="list-group-item content">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ligula eros, in senectus at. Neque
                         malesuada sollicitudin et id.
                     </div>
@@ -248,14 +248,14 @@
 
         </div>
     </div>
-    <div class="container vschool-contain">
+    <div class="container vschool-contain py-5 " id="contact-us">
         <div class="row">
 
             <div class="col-6 my-auto">
-                <h5>
+                <h5 class="my-3 small-topic">
                     Contact Us
                 </h5>
-                <h3>
+                <h3 class="my-3 big-topic">
                     Ask A Question!
                 </h3>
                 <p>
@@ -267,7 +267,7 @@
                    
                         <div class="form-floating">
                             <input type="text" class="form-control" id="userFirstName" placeholder="Enter First Name">
-                            <label for="floatingPassword">First Name</label>
+                            <label for="floatingPassword">Full Name</label>
                           </div>
                     </div>
                     <div class="col-md-6 my-3">
@@ -288,11 +288,11 @@
                    
                         <div class="form-floating">
                             <input type="text" class="form-control" id="userFirstName" placeholder="Enter First Name">
-                            <label for="floatingPassword">First Name</label>
+                            <label for="floatingPassword">Subject</label>
                           </div>
                     </div>
                     <div class="col-md-12 my-2">
-                        <label for="exampleFormControlTextarea1" class="form-label">Bio</label>
+                      
                         <div class="form-floating">
     
                             <textarea class="form-control" style="height:120px;" placeholder="Leave a comment here"
@@ -309,19 +309,19 @@
 
 
             </div>
-            <div class="col-md-6">
-                <div class="image">
+            <div class="col-md-6 px-4">
+                <div class="image cap-image">
                     <img src="./assets/img/question-image.png" alt="">
                 </div>
             </div>
 
         </div>
     </div>
-    <div class="container">
-        <div class="col-md-6">
+    <div class="container py-4">
+        <div class="col-md-8">
             <div class="row">
                 <div class="col-4">
-                    <h5>
+                    <h5 class="small-topic">
                         Phone Number
                     </h5>
                     <p>
@@ -330,7 +330,7 @@
                   
                 </div>
                 <div class="col-4">
-                    <h5>
+                    <h5 class="small-topic">
                         Email
                     </h5>
                     <p>
@@ -338,7 +338,7 @@
                     </p>
                 </div>
                 <div class="col-4">
-                    <h5>
+                    <h5 class="small-topic">
                         Our Address
                     </h5>
                     <p>

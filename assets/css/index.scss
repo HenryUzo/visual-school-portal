@@ -3,49 +3,81 @@
 @import "./main-body";
 @import "./profile-section";
 
-
-html{
+html {
     overflow-x: hidden;
 
-    .banner-background{
-        background: linear-gradient(84.47deg, rgba(19, 134, 218, 0.1) -6.65%, rgba(180, 88, 199, 0.1) 31.91%, rgba(19, 134, 218, 0.1) 65.79%, rgba(180, 88, 199, 0.1) 105.52%);
-        .landing-page-menu{
+    .banner-background {
+        background: linear-gradient(
+            84.47deg,
+            rgba(19, 134, 218, 0.1) -6.65%,
+            rgba(180, 88, 199, 0.1) 31.91%,
+            rgba(19, 134, 218, 0.1) 65.79%,
+            rgba(180, 88, 199, 0.1) 105.52%
+        );
+        .landing-page-menu {
             @media (max-width: 1030px) {
                 display: none;
             }
         }
-        .vschool-contain{
-            .big-caption{
+        .vschool-contain {
+            .big-caption {
                 font-size: 72px;
                 font-weight: 700;
             }
-            .small-caption{
+            .small-caption {
                 font-size: 24px;
             }
         }
-       
-      
-
-    }
-    .vschool-contain{
-        max-width: 1200px;
+        .index-nav{
+            margin-left: 60vh;
+           
+                ul{
+                    li{
+                        a{
+                            font-weight: 600;
+                            color: black !important;
+                        }
+                        .active{
+                            color: $primaryColor !important;
+                        }
+                    }
+                }
+            
+        }
         
-    } 
-    .vschool-contain-small{
+    }
+    .vschool-contain {
+        max-width: 1300px;
+    }
+    .vschool-contain-small {
         max-width: 900px;
-    } 
-
-    .portal-info{
-        .topic{
-            font-size: 24px;
-            font-weight: 600;
-        }
-        .text{
-
-        }
-        .small-topic{
-            font-size: 18px;
-        }
     }
 
-}   
+    .portal-info {
+      
+    }
+
+
+    // Caption Image 
+    .cap-image {
+        height: 100%;
+        overflow: hidden;
+        img {
+            height: 100%;
+        }
+    }
+}
+.topic {
+    font-size: 24px;
+    font-weight: 600;
+}
+.text {
+}
+.small-topic {
+    font-size: 18px;
+}
+
+.big-topic{
+    font-size: 48px;
+    font-weight: 700;
+}

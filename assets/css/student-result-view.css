@@ -567,6 +567,10 @@
   margin-top: 30vh;
 }
 
+.nav .side-nav .student-logout {
+  margin-top: 40vh;
+}
+
 .nav .side-nav .active,
 .nav .side-nav .vschool-primary-btn {
   background-color: #1386da;
@@ -1026,9 +1030,39 @@
   background-image: url(/assets/img/school.png);
 }
 
+@media (min-width: 700px) {
+  .small-cards .small-card-contain {
+    max-width: 650px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .small-cards .small-card-contain {
+    max-width: 900px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .small-cards .small-card-contain {
+    max-width: 1030px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .small-cards .small-card-contain {
+    max-width: 1180px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .small-cards .small-card-contain {
+    max-width: 1400px;
+  }
+}
+
 @media (min-width: 1900px) {
   .small-cards .small-card-contain {
-    max-width: 1550px;
+    max-width: 1700px;
   }
 }
 
@@ -1232,7 +1266,21 @@
   border: none;
 }
 
+.vschool-list-group .content {
+  background-color: transparent;
+  border: none;
+}
+
 html {
   overflow-x: hidden;
 }
-/*# sourceMappingURL=result-class-group.css.map */
+
+html .topic {
+  font-weight: 500;
+  color: #686868;
+}
+
+html .details {
+  font-weight: 600;
+}
+/*# sourceMappingURL=student-result-view.css.map */

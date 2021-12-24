@@ -1,0 +1,57 @@
+@import "./constant";
+@import "./side-menu";
+@import "./main-body";
+
+html{
+    overflow-x: hidden;
+
+    .pre-school-info{
+       
+    }
+
+    .comment-info{
+        .pre-school-info-contain{
+            // @media (min-width:1200px) {
+            //     min-width: 1020px;
+            //     max-width: 1200px;
+            // }
+            // @media (min-width:1600px) {
+            //     min-width: 1420px;
+            // }
+            // @media (min-width:1900px) {
+            //     min-width: 1720px;
+            // }
+            @media (min-width: 700px) {
+                max-width: 650px;
+            }
+            @media (min-width: 1000px) {
+                max-width: 900px;
+            }
+            @media (min-width: 1200px) {
+                max-width: 1030px;
+            }
+            @media (min-width: 1400px) {
+                max-width: 1180px;
+            }
+            @media (min-width: 1600px) {
+                max-width: 1400px;
+            }
+            @media (min-width: 1900px) {
+                max-width: 1700px;
+            }
+         border-radius: 20px;
+     
+        }
+    }
+
+    .topic{
+        font-weight: 500;
+        color: $textColor;
+    }
+    .details{
+       font-weight: 600;
+      
+    }
+
+   
+}  
