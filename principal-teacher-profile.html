@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>dashboard-principal</title>
+    <title>Teacher Profile</title>
 
     <!-- Bootstarp CSS -->
 
@@ -22,12 +22,6 @@
 
     <!--End Font Awesome -->
 
-    <!-- Owl Carousel for Sliders -->
-
-    <link rel="stylesheet" href="./assets/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="./assets/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
-
-    <!--End Owl Carousel for Sliders -->
 
     <!-- Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -40,7 +34,7 @@
 
     <!-- Default CSS -->
 
-    <link rel="stylesheet" href="./assets/css/principal-dashboard.css">
+    <link rel="stylesheet" href="./assets/css/principal-teacher-profile.css">
 
     <!--End Default CSS -->
 
@@ -150,11 +144,20 @@
         </div>
     </div>
     <div class="row">
-        <div class="main-body  my-3">
+        <div class="main-body-inner  my-3">
             <div class="row mx-4 my-5 mb-2">
-                <div class="col-md-11 welcome">
-                    <h2 class="user">Hello <span class="first-name">John</span></h2>
-                    <p class="intro">Welcome back, what do you want to do today?</p>
+                <div class="col-md-11 welcome mb-3">
+                    <ul class="list-group breadcrumb list-group-horizontal">
+                        <a href="/principal-dashboard.html" class="pe-3 list-group-item content"> <svg width="28" height="28"
+                                viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M17.5 4.66675L8.16663 14.0001L17.5 23.3334" stroke="black"
+                                    stroke-width="2.33333" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg></a>
+
+                        <h2 class="user list-group-item content">Teacher Profile</h2>
+                    </ul>
+
+
                 </div>
                 <div class="col-md-1 d-none d-md-block">
                     <div class="notification text-center pt-2">
@@ -167,227 +170,112 @@
                     </div>
                 </div>
             </div>
-            <div class="main-cta">
-                <div class="container">
-                    <div class="CTAs owl-carousel">
-                        <div class="item pic-CTAs-card result ">
-                            <a href="#" class="vschool-card blue card">
-                            </a>
-                            <div class="CTAs-text px-3">
-                                <h6 class="card-topic">Results</h6>
-                                <p class="card-description">View, and Approve Results</p>
-                            </div>
+
+            <div class=" profile-info">
+                <div class="container pre-school-info-contain bg-white py-3 my-4">
+                    <div class="row mx-4 my-4 mb-1 top-bar">
+                        <div class="col-md-8 big-table-header ">
+                            <h2 class="user">Year</h2>
+                            <p class="intro">
+                                Sessions of results
+                            </p>
+
                         </div>
-                        <div class="item pic-CTAs-card teacher">
-                            <a href="#" class="vschool-card purple card">
-                            </a>
-                            <div class="CTAs-text px-3">
-                                <h6 class="card-topic">Teachers</h6>
-                                <p class="card-description">View, approve Teachers</p>
-                            </div>
-                        </div>
-                        <div class="item pic-CTAs-card school ">
-                            <a class="vschool-card blue card">
-                            </a>
-                            <div class="CTAs-text px-3">
-                                <h6 class="card-topic">Schools</h6>
-                                <p class="card-description">View and explore schools</p>
-                            </div>
-                        </div>
+
+
                     </div>
-                </div>
-            </div>
-            <div class="info-section mb-4">
-                <div class="container info-contain">
-                    <div class="row">
-                        <div class="col-md-8 px-4 text-center teacher-info ">
-                            <div class="info-row row">
-                                <div class="info-heading col-12">
-                                    <p class="title my-4 py-2 mx-3">Teachers</p>
-                                </div>
-                                <div class="col-4">
-                                    <p class="info-topic">Approved</p>
-                                    <div class="approved-teachers-number counter primary-text-clr py-3">20</div>
 
-                                </div>
-                                <div class="col-4 ">
-                                    <p class="info-topic">Pending</p>
-                                    <div class="pending-teachers-number counter paragraph-text-clr py-3">20</div>
-                                    <div class="link-button text-start ps-3 my-3">
-                                        <a href="#" class="">
-                                            Approve <svg class="mx-1" width="23" height="23" viewBox="0 0 23 23"
-                                                fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M3.83334 11.5H19.1667" stroke="#1386DA" stroke-width="2.33333"
-                                                    stroke-linecap="round" stroke-linejoin="round" />
-                                                <path d="M12.4583 4.79166L19.1667 11.5L12.4583 18.2083" stroke="#1386DA"
-                                                    stroke-width="2.33333" stroke-linecap="round"
-                                                    stroke-linejoin="round" />
-                                            </svg>
-
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="col-4 ">
-                                    <p class="info-topic">Declined</p>
-                                    <div class="decline-teachers-number counter secondary-text-clr  py-3">20</div>
-                                    <div class="link-button text-start ps-3 my-3">
-                                        <a href="#" class="">
-                                            Approve <svg class="mx-1" width="23" height="23" viewBox="0 0 23 23"
-                                                fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M3.83334 11.5H19.1667" stroke="#1386DA" stroke-width="2.33333"
-                                                    stroke-linecap="round" stroke-linejoin="round" />
-                                                <path d="M12.4583 4.79166L19.1667 11.5L12.4583 18.2083" stroke="#1386DA"
-                                                    stroke-width="2.33333" stroke-linecap="round"
-                                                    stroke-linejoin="round" />
-                                            </svg>
-
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
+                    <div class="list-group list-group-horizontal-md mx-md-3 my-4">
+                        <div class="image profile-image mx-3 mx-md-0 text-center mx-auto">
+                            <img src="./assets/img/profile-pics.png" alt="">
                         </div>
-                        <div class="col-md-4 px-4 mt-4 mt-md-0 pupil-info text-center ">
-
-                            <div class=" info-box my-4">
-                                <p class="info-topic py-3 my-0">Pupils</p>
-                                <div class="total-pupils-number">20</div>
-                                <button type="button"
-                                    class="btn btn-primary px-3 py-2 vschool-primary-btn my-4 text-center">
-                                    View Pupils
-                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M10.707 17.707L16.414 12L10.707 6.293L9.293 7.707L13.586 12L9.293 16.293L10.707 17.707Z"
-                                            fill="white" />
-                                    </svg>
-
-                                </button>
-                            </div>
-                        </div>
+                        <!-- <div class=" ms-md-3 my-auto mt-3 mt-md-auto">
+                            <button type="button"
+                            class=" btn btn-primary px-4   vschool-secondary-btn text-center me-5 mt-4">
+                            <a href="">View Profile</a>
+                        </button>
+                        </div> -->
                     </div>
+                    <div class="row px-3 pb-5 mt-3">
+                        <div class="col-6 col-md-3 my-3">
+                            <div class="topic">First Name</div>
+                            <div class="first-name details">John</div>
+                        </div>
+                        <div class="col-6 col-md-3 my-3">
+                            <div class="topic">Last Name</div>
+                            <div class="last-name details">Tochukwu</div>
+                        </div>
+                        <div class="col-6 col-md-3 my-3">
+                            <div class="topic">Other Name</div>
+                            <div class="middle-name details">Oluchi</div>
+                        </div>
+                        <div class="col-6 col-md-3  my-3">
+                            <div class="topic">Gender</div>
+                            <div class="gender details">Male</div>
+                        </div>
+                        <div class="col-6 col-md-3  my-3">
+                            <div class="topic">Date of Birth</div>
+                            <div class="DOB details">02/10/1992 </div>
+                        </div>
+                        <div class="col-12  my-3">
+                            <div class="topic">Bio</div>
+                            <div class="bio details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
+                                eum iusto nam eligendi quisquam rem magnam velit. Suscipit, quae architecto?</div>
+                        </div>
+                        <div class="col-6 col-md-3 my-3">
+                            <div class="topic">Job Title</div>
+                            <div class="job details">Maths Teacher
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3 my-3">
+                            <div class="topic">School</div>
+                            <div class="school details">Spring Field Primary School
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3 my-3">
+                            <div class="topic">Years of Experience</div>
+                            <div class="exp-years details">3
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3 my-3">
+                            <div class="topic">State</div>
+                            <div class="state details">Anambra
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3 my-3">
+                            <div class="topic">LGA</div>
+                            <div class="LGA details">Nnewi-South
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3 my-3">
+                            <div class="topic">Phone Number</div>
+                            <div class="phone details">08162943845
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3 my-3">
+                            <div class="topic">Languages</div>
+                            <div class=" details"><span class="lang-one">English</span>, <span
+                                    class="lang-two">Igbo</span>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3 my-3">
+                            <div class="topic">CV</div>
+                            <ul class="list-group">
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                  Kellycv.pdf
+                                  <button class="badge vschool-primary-btn rounded-pill">Download</button>
+                                </li>
+                             
+                              </ul>
+                        </div>
+                        
+                    </div>
+                   
                 </div>
             </div>
 
         </div>
-        <div class="profile my-3">
-            <div class="row mt-5 mx-2">
-                <div class="col-3 profile-details ">
-                    <div class="image">
-                        <img src="./assets/img/profile-pics.png" alt="">
-                    </div>
-                </div>
-                <div class="col-9">
-                    <h5 class="user-name">
-                        <span class="first-name">John</span> <span class="Last-name">Udoma</span>
-                    </h5>
-                    <p><span class="position">Principal</span>, <span class="current-school">Springfield</span> School
-                    </p>
-                </div>
-                <div class="text-end link-button text-start ps-3 my-1">
-                    <a href="#" class="">
-                        Edit Profile<svg class="mx-1" width="23" height="23" viewBox="0 0 23 23" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path d="M3.83334 11.5H19.1667" stroke="#1386DA" stroke-width="2.33333"
-                                stroke-linecap="round" stroke-linejoin="round" />
-                            <path d="M12.4583 4.79166L19.1667 11.5L12.4583 18.2083" stroke="#1386DA"
-                                stroke-width="2.33333" stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
 
-                    </a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12">
-                    <div class="calender" id="calen">
-                        <div class="majorDate" id="majorDate">
-                            <i class="fas fa-angle-left left"></i>
-                            <div class="getdate pt-3">
-                                <div class="month">
-                                    <p id="month">MAY</p>
-                                </div>
-                                <div class="year">
-                                    <p id="year">2018</p>
-                                </div>
-                            </div>
-                            <i class="fas fa-angle-right right"></i>
-                        </div>
-                        <div class="dateContainer">
-                            <div class="days">
-                                <p class="day box">SUN</p>
-                                <p class="day box">MON</p>
-                                <p class="day box">TUS</p>
-                                <p class="day box">WED</p>
-                                <p class="day box">THU</p>
-                                <p class="day box">FRI</p>
-                                <p class="day box">SAT</p>
-                            </div>
-                            <div class="dayCount" id="dayCount">
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="school-snippet">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12 ">
-                            <h4 class="title">
-                                Favourite Schools
-                            </h4>
-                        </div>
-                        <div class="col-12">
-                            <div class="row details py-2 px-2 my-3">
-                                <div class="col-2 serial-no-count text-center">
-                                    <p class="">1</p>
-                                </div>
-                                <div class="col-7 ps-4">
-                                    <p class="school-name main-text mb-1 ">Divine Square</p>
-                                    <div class="LGA sub-text">Akwa</div>
-                                </div>
-                                <div class="col-2 text-center align-content-center">
-                                    <div class="small-button ">
-                                        <a href="#" class="">Go</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="row details py-2 px-2 my-3">
-                                <div class="col-2 serial-no-count text-center">
-                                    <p class="">1</p>
-                                </div>
-                                <div class="col-7 ps-4">
-                                    <p class="school-name main-text mb-1 ">Divine Square</p>
-                                    <div class="LGA sub-text">Akwa</div>
-                                </div>
-                                <div class="col-2 text-center align-content-center">
-                                    <div class="small-button ">
-                                        <a href="#" class="">Go</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="row details py-2 px-2 my-3">
-                                <div class="col-2 serial-no-count text-center">
-                                    <p class="">1</p>
-                                </div>
-                                <div class="col-7 ps-4">
-                                    <p class="school-name main-text mb-1 ">Divine Square</p>
-                                    <div class="LGA sub-text">Akwa</div>
-                                </div>
-                                <div class="col-2 text-center align-content-center">
-                                    <div class="small-button ">
-                                        <a href="#" class="">Go</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
     </div>
 
 
@@ -412,7 +300,7 @@
     <!--End Calendar JS -->
 
     <!-- default JS -->
-    <script src="./assets/js/dashboard.js"></script>
+    <script src="./assets/js/index.js"></script>
     <!-- default JS -->
 
 </body>
