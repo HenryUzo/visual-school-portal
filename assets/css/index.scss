@@ -93,5 +93,15 @@ html {
         }
     }
 }
+.vschool-logo {
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+
+    img {
+        width: 100%;
+        mix-blend-mode: multiply;
+    }
+}
 
 

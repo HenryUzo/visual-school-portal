@@ -5,20 +5,29 @@ html {
 
     body {
         background: linear-gradient(138.12deg, #b458c7 0%, #1386da 98.36%);
-       background-repeat: no-repeat;
-   
-       
+        background-repeat: no-repeat;
+
         border-radius: 20px;
-        .the-form{
+
+        .vschool-logo {
+            width: 80px;
+            height: 100px;
+            overflow: hidden;
+
+            img {
+                width: 100%;
+            }
+        }
+        .the-form {
             border-radius: 10px;
             box-shadow: 20px 40px 50px rgba(0, 0, 0, 0.2);
-            label{
+            label {
                 font-weight: 600;
             }
-            input{
+            input {
                 box-shadow: none !important;
                 outline: none;
-                &:active{
+                &:active {
                     outline: none;
                 }
             }

@@ -572,7 +572,7 @@
 }
 
 .nav .side-nav .student-logout {
-  margin-top: 40vh;
+  margin-top: 30vh;
 }
 
 .nav .side-nav .active,
@@ -593,13 +593,13 @@
 }
 
 .vschool-logo {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 70px;
   overflow: hidden;
 }
 
 .vschool-logo img {
-  width: 100%;
+  width: 90%;
 }
 
 .profile-det {
@@ -1032,6 +1032,11 @@
 
 .main-cta .container .CTAs .school {
   background-image: url(/assets/img/school.png);
+}
+
+.small-cards .small-card-contain {
+  padding-left: 0;
+  padding-right: 0;
 }
 
 @media (min-width: 700px) {
@@ -2036,5 +2041,16 @@ html .cap-image img {
 
 .cap-image .image img {
   width: 100%;
+}
+
+.vschool-logo {
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+}
+
+.vschool-logo img {
+  width: 100%;
+  mix-blend-mode: multiply;
 }
 /*# sourceMappingURL=index.css.map */

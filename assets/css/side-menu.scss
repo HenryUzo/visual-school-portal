@@ -126,12 +126,17 @@
 }
 
 .vschool-logo {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 70px;
     overflow: hidden;
 
     img {
-        width: 100%;
+        width: 90%;
+    }
+    @media (max-width:800px) {
+        width: 80px;
+    height: 100px;
+ 
     }
 }
 
