@@ -567,6 +567,10 @@
   margin-top: 30vh;
 }
 
+.nav .side-nav .superadmin-logout {
+  margin-top: 30vh;
+}
+
 .nav .side-nav .student-logout {
   margin-top: 40vh;
 }
@@ -1939,14 +1943,5 @@
 
 html {
   overflow-x: hidden;
-}
-
-html .upload-file .image {
-  width: 100px;
-  overflow: hidden;
-}
-
-html .upload-file .image img {
-  width: 100%;
 }
 /*# sourceMappingURL=teacher-upload-cv.css.map */

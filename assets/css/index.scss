@@ -28,23 +28,22 @@ html {
                 font-size: 24px;
             }
         }
-        .index-nav{
+
+        .index-nav {
             margin-left: 60vh;
-           
-                ul{
-                    li{
-                        a{
-                            font-weight: 600;
-                            color: black !important;
-                        }
-                        .active{
-                            color: $primaryColor !important;
-                        }
+
+            ul {
+                li {
+                    a {
+                        font-weight: 600;
+                        color: black !important;
+                    }
+                    .active {
+                        color: $primaryColor !important;
                     }
                 }
-            
+            }
         }
-        
     }
     .vschool-contain {
         max-width: 1300px;
@@ -54,11 +53,9 @@ html {
     }
 
     .portal-info {
-      
     }
 
-
-    // Caption Image 
+    // Caption Image
     .cap-image {
         height: 100%;
         overflow: hidden;
@@ -77,7 +74,24 @@ html {
     font-size: 18px;
 }
 
-.big-topic{
+.big-topic {
     font-size: 48px;
     font-weight: 700;
 }
+.cap-image {
+    .image {
+        width: 100%;
+        overflow: hidden;
+        @media (max-width: 800px) {
+            width: 40%;
+        }
+        @media (max-width: 500px) {
+            width: 60%;
+        }
+        img {
+            width: 100%;
+        }
+    }
+}
+
+

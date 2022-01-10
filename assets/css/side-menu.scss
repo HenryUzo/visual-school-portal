@@ -1,7 +1,7 @@
 @import "./constant";
 
 .nav {
-    .mobile-nav{
+    .mobile-nav {
         @media (min-width: 1030px) {
             display: none;
         }
@@ -17,14 +17,13 @@
             transition: 0.5s;
             padding-top: 60px;
             text-align: center;
-          
-    
+
             @media screen and (max-height: 450px) {
                 .top-nav {
                     padding-top: 15px;
                 }
             }
-    
+
             a {
                 padding: 32px 32px 50px 32px;
                 text-decoration: none;
@@ -54,7 +53,7 @@
                 }
             }
         }
-    
+
         .profile-det {
             position: relative;
             .image {
@@ -64,9 +63,9 @@
                 border-radius: 50px;
                 left: 71%;
                 top: 35%;
-    
+
                 position: relative;
-              
+
                 img {
                     width: 100%;
                 }
@@ -82,7 +81,6 @@
         }
     }
 
-
     .side-nav {
         @media (max-width: 1030px) {
             display: none;
@@ -93,23 +91,27 @@
             width: 15%;
         }
 
-       .logout{
-           margin-top: 25vh;
-       }
+        .logout {
+            margin-top: 25vh;
+        }
 
-       .teacher-logout{
-        margin-top: 30vh;
-    }
+        .teacher-logout {
+            margin-top: 30vh;
+        }
 
-    .student-logout{
-        margin-top: 40vh;
-    }
+        .superadmin-logout {
+            margin-top: 30vh;
+        }
+
+        .student-logout {
+            margin-top: 40vh;
+        }
 
         .active,
         .vschool-primary-btn {
-            a{
+            a {
                 color: white;
-               
+
                 svg {
                     path {
                         fill: white;
@@ -117,24 +119,21 @@
                 }
             }
             background-color: $primaryColor;
-           
+
             box-shadow: 0px 8px 18px rgba(0, 0, 0, 0.25);
-           
         }
     }
 }
 
-.vschool-logo{
- 
+.vschool-logo {
     width: 100px;
     height: 100px;
     overflow: hidden;
-  
-    img{
+
+    img {
         width: 100%;
     }
-   }
-
+}
 
 .profile-det {
     position: relative;
@@ -147,7 +146,7 @@
         top: 35%;
 
         position: relative;
-      
+
         img {
             width: 100%;
         }
@@ -162,6 +161,5 @@
     }
 }
 
-.teacher-logout{
-
+.teacher-logout {
 }

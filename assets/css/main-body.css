@@ -643,4 +643,13 @@
   background-color: transparent;
   border: none;
 }
+
+.upload-file .image {
+  width: 70px;
+  overflow: hidden;
+}
+
+.upload-file .image img {
+  width: 100%;
+}
 /*# sourceMappingURL=main-body.css.map */

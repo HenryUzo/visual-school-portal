@@ -1,0 +1,1956 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.background-primary {
+  background-color: #1386da !important;
+  color: white;
+}
+
+.background-secondary {
+  background-color: #b458c7 !important;
+  color: white;
+}
+
+.background-tertiary {
+  background-color: #f4f4f4 !important;
+  color: white;
+}
+
+.stroke-primary {
+  border: 1px #1386da solid !important;
+  color: #1386da;
+}
+
+.stroke-secondary {
+  border: 1px #b458c7 solid !important;
+  color: #b458c7;
+}
+
+.stroke-tertiary {
+  border: 1px #686868 solid !important;
+  color: #686868;
+}
+
+.primary-text-clr {
+  color: #1386da !important;
+}
+
+.secondary-text-clr {
+  color: #b458c7 !important;
+}
+
+.paragraph-text-clr {
+  color: #686868 !important;
+}
+
+.vschool-primary-btn {
+  background-color: #1386da;
+  -webkit-box-shadow: 0px 8px 18px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 8px 18px rgba(0, 0, 0, 0.25);
+  font-weight: 600;
+}
+
+.vschool-primary-btn svg path {
+  fill: white;
+}
+
+.vschool-primary-btn a {
+  text-decoration: none;
+  color: white;
+}
+
+.vschool-primary-btn:hover {
+  background-color: #b458c7;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.vschool-primary-btn:hover a {
+  color: white;
+}
+
+.vschool-secondary-btn {
+  background-color: #b458c7;
+  color: white;
+  border: #b458c7;
+  font-weight: 600;
+}
+
+.vschool-secondary-btn svg path {
+  fill: white;
+}
+
+.vschool-secondary-btn a {
+  text-decoration: none;
+  color: white;
+}
+
+.vschool-secondary-btn:hover {
+  background-color: #1386da;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.vschool-secondary-btn:hover a {
+  color: white;
+}
+
+.vschool-primary-btn-outline {
+  border: 1px #1386da solid !important;
+  color: #1386da;
+  background-color: transparent;
+  font-weight: 600;
+}
+
+.vschool-primary-btn-outline svg path {
+  fill: #1386da !important;
+}
+
+.vschool-primary-btn-outline a {
+  text-decoration: none;
+  color: #1386da;
+}
+
+.vschool-primary-btn-outline:hover {
+  background-color: #1386da;
+  color: white;
+}
+
+.vschool-primary-btn-outline:hover a {
+  color: white;
+}
+
+.vschool-secondary-btn-outline {
+  background-color: transparent;
+  border: 1px #b458c7 solid !important;
+  color: #b458c7;
+  font-weight: 600;
+}
+
+.vschool-secondary-btn-outline svg path {
+  fill: #b458c7 !important;
+}
+
+.vschool-secondary-btn-outline a {
+  text-decoration: none;
+  color: #b458c7;
+}
+
+.vschool-secondary-btn-outline:hover {
+  background-color: #b458c7;
+}
+
+.vschool-secondary-btn-outline:hover a {
+  color: white;
+}
+
+.profile-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.profile-image img {
+  width: 100%;
+}
+
+.small-profile-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.small-profile-image img {
+  width: 100%;
+}
+
+.menu {
+  background-color: transparent;
+  border: none;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+}
+
+.menu a svg path {
+  fill: #000;
+}
+
+.menu:hover {
+  background-color: #1386da;
+  -webkit-box-shadow: 0px 8px 18px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 8px 18px rgba(0, 0, 0, 0.25);
+}
+
+.menu:hover a {
+  color: white;
+}
+
+.menu:hover a svg path {
+  fill: white;
+}
+
+.info-topic {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.link-button {
+  margin-bottom: 40px;
+}
+
+.link-button a {
+  text-decoration: none;
+  color: #1386da;
+}
+
+.link-button svg path {
+  stroke: #1386da;
+}
+
+.link-button:hover a {
+  color: #686868;
+}
+
+.link-button:hover svg path {
+  stroke: #686868;
+}
+
+.vschool-nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1386da !important;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.background-primary {
+  background-color: #1386da !important;
+  color: white;
+}
+
+.background-secondary {
+  background-color: #b458c7 !important;
+  color: white;
+}
+
+.background-tertiary {
+  background-color: #f4f4f4 !important;
+  color: white;
+}
+
+.stroke-primary {
+  border: 1px #1386da solid !important;
+  color: #1386da;
+}
+
+.stroke-secondary {
+  border: 1px #b458c7 solid !important;
+  color: #b458c7;
+}
+
+.stroke-tertiary {
+  border: 1px #686868 solid !important;
+  color: #686868;
+}
+
+.primary-text-clr {
+  color: #1386da !important;
+}
+
+.secondary-text-clr {
+  color: #b458c7 !important;
+}
+
+.paragraph-text-clr {
+  color: #686868 !important;
+}
+
+.vschool-primary-btn {
+  background-color: #1386da;
+  -webkit-box-shadow: 0px 8px 18px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 8px 18px rgba(0, 0, 0, 0.25);
+  font-weight: 600;
+}
+
+.vschool-primary-btn svg path {
+  fill: white;
+}
+
+.vschool-primary-btn a {
+  text-decoration: none;
+  color: white;
+}
+
+.vschool-primary-btn:hover {
+  background-color: #b458c7;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.vschool-primary-btn:hover a {
+  color: white;
+}
+
+.vschool-secondary-btn {
+  background-color: #b458c7;
+  color: white;
+  border: #b458c7;
+  font-weight: 600;
+}
+
+.vschool-secondary-btn svg path {
+  fill: white;
+}
+
+.vschool-secondary-btn a {
+  text-decoration: none;
+  color: white;
+}
+
+.vschool-secondary-btn:hover {
+  background-color: #1386da;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.vschool-secondary-btn:hover a {
+  color: white;
+}
+
+.vschool-primary-btn-outline {
+  border: 1px #1386da solid !important;
+  color: #1386da;
+  background-color: transparent;
+  font-weight: 600;
+}
+
+.vschool-primary-btn-outline svg path {
+  fill: #1386da !important;
+}
+
+.vschool-primary-btn-outline a {
+  text-decoration: none;
+  color: #1386da;
+}
+
+.vschool-primary-btn-outline:hover {
+  background-color: #1386da;
+  color: white;
+}
+
+.vschool-primary-btn-outline:hover a {
+  color: white;
+}
+
+.vschool-secondary-btn-outline {
+  background-color: transparent;
+  border: 1px #b458c7 solid !important;
+  color: #b458c7;
+  font-weight: 600;
+}
+
+.vschool-secondary-btn-outline svg path {
+  fill: #b458c7 !important;
+}
+
+.vschool-secondary-btn-outline a {
+  text-decoration: none;
+  color: #b458c7;
+}
+
+.vschool-secondary-btn-outline:hover {
+  background-color: #b458c7;
+}
+
+.vschool-secondary-btn-outline:hover a {
+  color: white;
+}
+
+.profile-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.profile-image img {
+  width: 100%;
+}
+
+.small-profile-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.small-profile-image img {
+  width: 100%;
+}
+
+.menu {
+  background-color: transparent;
+  border: none;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+}
+
+.menu a svg path {
+  fill: #000;
+}
+
+.menu:hover {
+  background-color: #1386da;
+  -webkit-box-shadow: 0px 8px 18px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 8px 18px rgba(0, 0, 0, 0.25);
+}
+
+.menu:hover a {
+  color: white;
+}
+
+.menu:hover a svg path {
+  fill: white;
+}
+
+.info-topic {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.link-button {
+  margin-bottom: 40px;
+}
+
+.link-button a {
+  text-decoration: none;
+  color: #1386da;
+}
+
+.link-button svg path {
+  stroke: #1386da;
+}
+
+.link-button:hover a {
+  color: #686868;
+}
+
+.link-button:hover svg path {
+  stroke: #686868;
+}
+
+.vschool-nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1386da !important;
+}
+
+@media (min-width: 1030px) {
+  .nav .mobile-nav {
+    display: none;
+  }
+}
+
+.nav .mobile-nav .top-nav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 20;
+  top: 0;
+  left: 0;
+  background-color: #1386da;
+  overflow-x: hidden;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  padding-top: 60px;
+  text-align: center;
+}
+
+@media screen and (max-height: 450px) {
+  .nav .mobile-nav .top-nav .top-nav {
+    padding-top: 15px;
+  }
+}
+
+.nav .mobile-nav .top-nav a {
+  padding: 32px 32px 50px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+@media screen and (max-height: 450px) {
+  .nav .mobile-nav .top-nav a .top-nav a {
+    font-size: 18px;
+  }
+}
+
+.nav .mobile-nav .top-nav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.nav .mobile-nav .logo .image {
+  width: 100%;
+}
+
+.nav .mobile-nav .logo .image img {
+  width: 100%;
+}
+
+.nav .mobile-nav .profile-det {
+  position: relative;
+}
+
+.nav .mobile-nav .profile-det .image {
+  width: 56px;
+  height: 56px;
+  overflow: hidden;
+  border-radius: 50px;
+  left: 71%;
+  top: 35%;
+  position: relative;
+}
+
+.nav .mobile-nav .profile-det .image img {
+  width: 100%;
+}
+
+@media (max-width: 450px) {
+  .nav .mobile-nav .profile-det .image {
+    width: 36px;
+    height: 36px;
+    left: 31%;
+    top: 35%;
+  }
+}
+
+.nav .side-nav {
+  position: fixed;
+  width: 17%;
+}
+
+@media (max-width: 1030px) {
+  .nav .side-nav {
+    display: none;
+  }
+}
+
+@media (min-width: 1900px) {
+  .nav .side-nav {
+    width: 15%;
+  }
+}
+
+.nav .side-nav .logout {
+  margin-top: 25vh;
+}
+
+.nav .side-nav .teacher-logout {
+  margin-top: 30vh;
+}
+
+.nav .side-nav .superadmin-logout {
+  margin-top: 30vh;
+}
+
+.nav .side-nav .student-logout {
+  margin-top: 40vh;
+}
+
+.nav .side-nav .active,
+.nav .side-nav .vschool-primary-btn {
+  background-color: #1386da;
+  -webkit-box-shadow: 0px 8px 18px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 8px 18px rgba(0, 0, 0, 0.25);
+}
+
+.nav .side-nav .active a,
+.nav .side-nav .vschool-primary-btn a {
+  color: white;
+}
+
+.nav .side-nav .active a svg path,
+.nav .side-nav .vschool-primary-btn a svg path {
+  fill: white;
+}
+
+.vschool-logo {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+}
+
+.vschool-logo img {
+  width: 100%;
+}
+
+.profile-det {
+  position: relative;
+}
+
+.profile-det .image {
+  width: 56px;
+  height: 56px;
+  overflow: hidden;
+  border-radius: 50px;
+  left: 71%;
+  top: 35%;
+  position: relative;
+}
+
+.profile-det .image img {
+  width: 100%;
+}
+
+@media (max-width: 450px) {
+  .profile-det .image {
+    width: 36px;
+    height: 36px;
+    left: 31%;
+    top: 35%;
+  }
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.background-primary {
+  background-color: #1386da !important;
+  color: white;
+}
+
+.background-secondary {
+  background-color: #b458c7 !important;
+  color: white;
+}
+
+.background-tertiary {
+  background-color: #f4f4f4 !important;
+  color: white;
+}
+
+.stroke-primary {
+  border: 1px #1386da solid !important;
+  color: #1386da;
+}
+
+.stroke-secondary {
+  border: 1px #b458c7 solid !important;
+  color: #b458c7;
+}
+
+.stroke-tertiary {
+  border: 1px #686868 solid !important;
+  color: #686868;
+}
+
+.primary-text-clr {
+  color: #1386da !important;
+}
+
+.secondary-text-clr {
+  color: #b458c7 !important;
+}
+
+.paragraph-text-clr {
+  color: #686868 !important;
+}
+
+.vschool-primary-btn {
+  background-color: #1386da;
+  -webkit-box-shadow: 0px 8px 18px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 8px 18px rgba(0, 0, 0, 0.25);
+  font-weight: 600;
+}
+
+.vschool-primary-btn svg path {
+  fill: white;
+}
+
+.vschool-primary-btn a {
+  text-decoration: none;
+  color: white;
+}
+
+.vschool-primary-btn:hover {
+  background-color: #b458c7;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.vschool-primary-btn:hover a {
+  color: white;
+}
+
+.vschool-secondary-btn {
+  background-color: #b458c7;
+  color: white;
+  border: #b458c7;
+  font-weight: 600;
+}
+
+.vschool-secondary-btn svg path {
+  fill: white;
+}
+
+.vschool-secondary-btn a {
+  text-decoration: none;
+  color: white;
+}
+
+.vschool-secondary-btn:hover {
+  background-color: #1386da;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.vschool-secondary-btn:hover a {
+  color: white;
+}
+
+.vschool-primary-btn-outline {
+  border: 1px #1386da solid !important;
+  color: #1386da;
+  background-color: transparent;
+  font-weight: 600;
+}
+
+.vschool-primary-btn-outline svg path {
+  fill: #1386da !important;
+}
+
+.vschool-primary-btn-outline a {
+  text-decoration: none;
+  color: #1386da;
+}
+
+.vschool-primary-btn-outline:hover {
+  background-color: #1386da;
+  color: white;
+}
+
+.vschool-primary-btn-outline:hover a {
+  color: white;
+}
+
+.vschool-secondary-btn-outline {
+  background-color: transparent;
+  border: 1px #b458c7 solid !important;
+  color: #b458c7;
+  font-weight: 600;
+}
+
+.vschool-secondary-btn-outline svg path {
+  fill: #b458c7 !important;
+}
+
+.vschool-secondary-btn-outline a {
+  text-decoration: none;
+  color: #b458c7;
+}
+
+.vschool-secondary-btn-outline:hover {
+  background-color: #b458c7;
+}
+
+.vschool-secondary-btn-outline:hover a {
+  color: white;
+}
+
+.profile-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.profile-image img {
+  width: 100%;
+}
+
+.small-profile-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.small-profile-image img {
+  width: 100%;
+}
+
+.menu {
+  background-color: transparent;
+  border: none;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+}
+
+.menu a svg path {
+  fill: #000;
+}
+
+.menu:hover {
+  background-color: #1386da;
+  -webkit-box-shadow: 0px 8px 18px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 8px 18px rgba(0, 0, 0, 0.25);
+}
+
+.menu:hover a {
+  color: white;
+}
+
+.menu:hover a svg path {
+  fill: white;
+}
+
+.info-topic {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.link-button {
+  margin-bottom: 40px;
+}
+
+.link-button a {
+  text-decoration: none;
+  color: #1386da;
+}
+
+.link-button svg path {
+  stroke: #1386da;
+}
+
+.link-button:hover a {
+  color: #686868;
+}
+
+.link-button:hover svg path {
+  stroke: #686868;
+}
+
+.vschool-nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1386da !important;
+}
+
+.main-body {
+  background: linear-gradient(138.12deg, #f5f5f5 0%, #eaf6ff 98.36%);
+  border-radius: 20px;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+.main-body::-webkit-scrollbar {
+  display: none;
+}
+
+@media (min-width: 400px) {
+  .main-body {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+    width: 90%;
+    margin: auto;
+    height: 80vh;
+  }
+}
+
+@media (min-width: 700px) {
+  .main-body {
+    height: 84vh;
+  }
+}
+
+@media (min-width: 1200px) {
+  .main-body {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+    width: 56.33333333%;
+    margin-left: 230px;
+    margin-right: 10px;
+    height: 93vh;
+  }
+}
+
+@media (min-width: 1600px) {
+  .main-body {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+    width: 59.33333333%;
+    margin-left: 230px;
+    margin-right: 0px;
+    height: 93vh;
+  }
+}
+
+.main-body-inner {
+  background: linear-gradient(138.12deg, #f5f5f5 0%, #eaf6ff 98.36%);
+  border-radius: 20px;
+  overflow-y: scroll;
+  height: 84vh;
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+.main-body-inner::-webkit-scrollbar {
+  display: none;
+}
+
+@media (min-width: 400px) {
+  .main-body-inner {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+    width: 90%;
+    margin: auto;
+  }
+}
+
+@media (min-width: 700px) {
+  .main-body-inner {
+    height: 84vh;
+  }
+}
+
+@media (min-width: 1200px) {
+  .main-body-inner {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+    width: 80%;
+    margin-left: 230px;
+    height: 93vh;
+  }
+}
+
+@media (min-width: 1600px) {
+  .main-body-inner {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+    width: 83%;
+  }
+}
+
+.welcome .user {
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.welcome .intro {
+  color: #686868;
+}
+
+.notification {
+  background-color: #1386da;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+.main-cta .container .CTAs .pic-CTAs-card {
+  position: relative;
+  background-size: 130%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.main-cta .container .CTAs .pic-CTAs-card .CTAs-text {
+  position: absolute;
+  top: 67%;
+}
+
+.main-cta .container .CTAs .pic-CTAs-card .CTAs-text .card-topic {
+  color: white;
+  font-size: 20px;
+  z-index: 2;
+}
+
+.main-cta .container .CTAs .pic-CTAs-card .CTAs-text .card-description {
+  color: white;
+  font-weight: 300;
+}
+
+.main-cta .container .CTAs .pic-CTAs-card .vschool-card {
+  height: 280px;
+}
+
+.main-cta .container .CTAs .pic-CTAs-card .blue {
+  background: linear-gradient(156.1deg, rgba(19, 134, 218, 0) 4.59%, rgba(19, 134, 218, 0.615) 38.34%, rgba(16, 16, 16, 0.8118) 99.03%);
+  mix-blend-mode: multiply;
+}
+
+.main-cta .container .CTAs .pic-CTAs-card .purple {
+  background: linear-gradient(335.94deg, rgba(0, 0, 0, 0.84) -6.19%, rgba(180, 88, 199, 0.84) 44.9%, rgba(173, 84, 190, 0) 102.81%, rgba(173, 84, 190, 0.84) 102.81%);
+  mix-blend-mode: multiply;
+}
+
+.main-cta .container .CTAs .result {
+  background-image: url(/assets/img/result.png);
+}
+
+.main-cta .container .CTAs .teacher {
+  background-image: url(/assets/img/teachers.png);
+}
+
+.main-cta .container .CTAs .school {
+  background-image: url(/assets/img/school.png);
+}
+
+@media (min-width: 700px) {
+  .small-cards .small-card-contain {
+    max-width: 650px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .small-cards .small-card-contain {
+    max-width: 900px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .small-cards .small-card-contain {
+    max-width: 1030px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .small-cards .small-card-contain {
+    max-width: 1180px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .small-cards .small-card-contain {
+    max-width: 1400px;
+  }
+}
+
+@media (min-width: 1900px) {
+  .small-cards .small-card-contain {
+    max-width: 1700px;
+  }
+}
+
+.small-cards .small-card-contain .smallCards {
+  border-radius: 20px;
+}
+
+.small-cards .small-card-contain .smallCards .info {
+  background-color: #f4f4f4;
+  border-radius: 16px;
+}
+
+@media (min-width: 1900px) {
+  .info-section .info-contain {
+    max-width: 1550px;
+  }
+}
+
+.info-section .info-contain .teacher-info .info-row {
+  background: white;
+  border-radius: 20px;
+}
+
+.info-section .info-contain .teacher-info .info-row .info-heading .title {
+  background-color: #b458c7;
+  -webkit-box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 22px;
+  color: white;
+}
+
+.info-section .info-contain .teacher-info .info-row .counter {
+  background-color: #f4f4f4;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 54px;
+}
+
+.info-section .pupil-info {
+  background: white;
+  border-radius: 20px;
+}
+
+.info-section .pupil-info .info-box {
+  background-color: #f4f4f4;
+  border-radius: 20px;
+}
+
+.info-section .pupil-info .info-box .total-pupils-number {
+  font-size: 54px;
+  font-weight: 700;
+  color: #1386da;
+}
+
+.big-table {
+  max-width: 1280px;
+  border-radius: 20px;
+}
+
+@media (min-width: 700px) {
+  .big-table {
+    max-width: 650px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .big-table {
+    max-width: 900px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .big-table {
+    max-width: 1030px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .big-table {
+    max-width: 1180px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .big-table {
+    max-width: 1400px;
+  }
+}
+
+@media (min-width: 1900px) {
+  .big-table {
+    max-width: 1700px;
+  }
+}
+
+.big-table .main-table .table-row {
+  height: 100px;
+}
+
+.big-table .main-table .table-row .user-col {
+  min-width: 230px;
+}
+
+@media (min-width: 1000px) {
+  .big-table .main-table .table-row .user-col {
+    min-width: 100px;
+    max-width: 180px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .big-table .main-table .table-row .user-col {
+    min-width: 100px;
+    max-width: 130px;
+  }
+}
+
+.big-table .main-table .table-row .user-col .image {
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+  border-radius: 6px;
+}
+
+.big-table .main-table .table-row .user-col .image img {
+  width: 100%;
+}
+
+.big-table .main-table .table-row .user-col .username {
+  font-weight: 600;
+}
+
+.big-table .main-table .table-row .user-col .view {
+  text-decoration: none;
+  color: #686868;
+}
+
+.profile-image-detail .right .user-name {
+  font-weight: 700;
+}
+
+.profile-image-detail .right .little-details {
+  font-size: 14px;
+  color: #686868;
+}
+
+.top-bar .big-table-header .user {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.top-bar .big-table-header .intro {
+  color: #686868;
+  font-size: 14px;
+}
+
+.pre-school-info-contain {
+  border-radius: 20px;
+}
+
+@media (min-width: 700px) {
+  .pre-school-info-contain {
+    max-width: 650px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .pre-school-info-contain {
+    max-width: 900px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .pre-school-info-contain {
+    max-width: 1030px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .pre-school-info-contain {
+    max-width: 1180px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .pre-school-info-contain {
+    max-width: 1400px;
+  }
+}
+
+@media (min-width: 1900px) {
+  .pre-school-info-contain {
+    max-width: 1700px;
+  }
+}
+
+.breadcrumb .content {
+  background-color: transparent;
+  border: none;
+}
+
+.vschool-list-group .content {
+  background-color: transparent;
+  border: none;
+}
+
+.upload-file .image {
+  width: 70px;
+  overflow: hidden;
+}
+
+.upload-file .image img {
+  width: 100%;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.background-primary {
+  background-color: #1386da !important;
+  color: white;
+}
+
+.background-secondary {
+  background-color: #b458c7 !important;
+  color: white;
+}
+
+.background-tertiary {
+  background-color: #f4f4f4 !important;
+  color: white;
+}
+
+.stroke-primary {
+  border: 1px #1386da solid !important;
+  color: #1386da;
+}
+
+.stroke-secondary {
+  border: 1px #b458c7 solid !important;
+  color: #b458c7;
+}
+
+.stroke-tertiary {
+  border: 1px #686868 solid !important;
+  color: #686868;
+}
+
+.primary-text-clr {
+  color: #1386da !important;
+}
+
+.secondary-text-clr {
+  color: #b458c7 !important;
+}
+
+.paragraph-text-clr {
+  color: #686868 !important;
+}
+
+.vschool-primary-btn {
+  background-color: #1386da;
+  -webkit-box-shadow: 0px 8px 18px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 8px 18px rgba(0, 0, 0, 0.25);
+  font-weight: 600;
+}
+
+.vschool-primary-btn svg path {
+  fill: white;
+}
+
+.vschool-primary-btn a {
+  text-decoration: none;
+  color: white;
+}
+
+.vschool-primary-btn:hover {
+  background-color: #b458c7;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.vschool-primary-btn:hover a {
+  color: white;
+}
+
+.vschool-secondary-btn {
+  background-color: #b458c7;
+  color: white;
+  border: #b458c7;
+  font-weight: 600;
+}
+
+.vschool-secondary-btn svg path {
+  fill: white;
+}
+
+.vschool-secondary-btn a {
+  text-decoration: none;
+  color: white;
+}
+
+.vschool-secondary-btn:hover {
+  background-color: #1386da;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.vschool-secondary-btn:hover a {
+  color: white;
+}
+
+.vschool-primary-btn-outline {
+  border: 1px #1386da solid !important;
+  color: #1386da;
+  background-color: transparent;
+  font-weight: 600;
+}
+
+.vschool-primary-btn-outline svg path {
+  fill: #1386da !important;
+}
+
+.vschool-primary-btn-outline a {
+  text-decoration: none;
+  color: #1386da;
+}
+
+.vschool-primary-btn-outline:hover {
+  background-color: #1386da;
+  color: white;
+}
+
+.vschool-primary-btn-outline:hover a {
+  color: white;
+}
+
+.vschool-secondary-btn-outline {
+  background-color: transparent;
+  border: 1px #b458c7 solid !important;
+  color: #b458c7;
+  font-weight: 600;
+}
+
+.vschool-secondary-btn-outline svg path {
+  fill: #b458c7 !important;
+}
+
+.vschool-secondary-btn-outline a {
+  text-decoration: none;
+  color: #b458c7;
+}
+
+.vschool-secondary-btn-outline:hover {
+  background-color: #b458c7;
+}
+
+.vschool-secondary-btn-outline:hover a {
+  color: white;
+}
+
+.profile-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.profile-image img {
+  width: 100%;
+}
+
+.small-profile-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.small-profile-image img {
+  width: 100%;
+}
+
+.menu {
+  background-color: transparent;
+  border: none;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+}
+
+.menu a svg path {
+  fill: #000;
+}
+
+.menu:hover {
+  background-color: #1386da;
+  -webkit-box-shadow: 0px 8px 18px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 8px 18px rgba(0, 0, 0, 0.25);
+}
+
+.menu:hover a {
+  color: white;
+}
+
+.menu:hover a svg path {
+  fill: white;
+}
+
+.info-topic {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.link-button {
+  margin-bottom: 40px;
+}
+
+.link-button a {
+  text-decoration: none;
+  color: #1386da;
+}
+
+.link-button svg path {
+  stroke: #1386da;
+}
+
+.link-button:hover a {
+  color: #686868;
+}
+
+.link-button:hover svg path {
+  stroke: #686868;
+}
+
+.vschool-nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1386da !important;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.background-primary {
+  background-color: #1386da !important;
+  color: white;
+}
+
+.background-secondary {
+  background-color: #b458c7 !important;
+  color: white;
+}
+
+.background-tertiary {
+  background-color: #f4f4f4 !important;
+  color: white;
+}
+
+.stroke-primary {
+  border: 1px #1386da solid !important;
+  color: #1386da;
+}
+
+.stroke-secondary {
+  border: 1px #b458c7 solid !important;
+  color: #b458c7;
+}
+
+.stroke-tertiary {
+  border: 1px #686868 solid !important;
+  color: #686868;
+}
+
+.primary-text-clr {
+  color: #1386da !important;
+}
+
+.secondary-text-clr {
+  color: #b458c7 !important;
+}
+
+.paragraph-text-clr {
+  color: #686868 !important;
+}
+
+.vschool-primary-btn {
+  background-color: #1386da;
+  -webkit-box-shadow: 0px 8px 18px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 8px 18px rgba(0, 0, 0, 0.25);
+  font-weight: 600;
+}
+
+.vschool-primary-btn svg path {
+  fill: white;
+}
+
+.vschool-primary-btn a {
+  text-decoration: none;
+  color: white;
+}
+
+.vschool-primary-btn:hover {
+  background-color: #b458c7;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.vschool-primary-btn:hover a {
+  color: white;
+}
+
+.vschool-secondary-btn {
+  background-color: #b458c7;
+  color: white;
+  border: #b458c7;
+  font-weight: 600;
+}
+
+.vschool-secondary-btn svg path {
+  fill: white;
+}
+
+.vschool-secondary-btn a {
+  text-decoration: none;
+  color: white;
+}
+
+.vschool-secondary-btn:hover {
+  background-color: #1386da;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.vschool-secondary-btn:hover a {
+  color: white;
+}
+
+.vschool-primary-btn-outline {
+  border: 1px #1386da solid !important;
+  color: #1386da;
+  background-color: transparent;
+  font-weight: 600;
+}
+
+.vschool-primary-btn-outline svg path {
+  fill: #1386da !important;
+}
+
+.vschool-primary-btn-outline a {
+  text-decoration: none;
+  color: #1386da;
+}
+
+.vschool-primary-btn-outline:hover {
+  background-color: #1386da;
+  color: white;
+}
+
+.vschool-primary-btn-outline:hover a {
+  color: white;
+}
+
+.vschool-secondary-btn-outline {
+  background-color: transparent;
+  border: 1px #b458c7 solid !important;
+  color: #b458c7;
+  font-weight: 600;
+}
+
+.vschool-secondary-btn-outline svg path {
+  fill: #b458c7 !important;
+}
+
+.vschool-secondary-btn-outline a {
+  text-decoration: none;
+  color: #b458c7;
+}
+
+.vschool-secondary-btn-outline:hover {
+  background-color: #b458c7;
+}
+
+.vschool-secondary-btn-outline:hover a {
+  color: white;
+}
+
+.profile-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.profile-image img {
+  width: 100%;
+}
+
+.small-profile-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.small-profile-image img {
+  width: 100%;
+}
+
+.menu {
+  background-color: transparent;
+  border: none;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+}
+
+.menu a svg path {
+  fill: #000;
+}
+
+.menu:hover {
+  background-color: #1386da;
+  -webkit-box-shadow: 0px 8px 18px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 8px 18px rgba(0, 0, 0, 0.25);
+}
+
+.menu:hover a {
+  color: white;
+}
+
+.menu:hover a svg path {
+  fill: white;
+}
+
+.info-topic {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.link-button {
+  margin-bottom: 40px;
+}
+
+.link-button a {
+  text-decoration: none;
+  color: #1386da;
+}
+
+.link-button svg path {
+  stroke: #1386da;
+}
+
+.link-button:hover a {
+  color: #686868;
+}
+
+.link-button:hover svg path {
+  stroke: #686868;
+}
+
+.vschool-nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1386da !important;
+}
+
+.calender {
+  width: 100%;
+  padding: 9px;
+}
+
+.calender .majorDate {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  padding: 20px 0 0 0;
+}
+
+.calender .majorDate .getdate {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 23px;
+  color: black;
+  cursor: default;
+}
+
+.calender .majorDate .getdate p {
+  font-size: 21px;
+  font-weight: bold;
+  padding: 3px;
+  cursor: default;
+}
+
+.calender .majorDate .fas {
+  font-size: 25px;
+  color: black;
+  cursor: pointer;
+}
+
+.calender .dateContainer {
+  padding: 0 16px;
+}
+
+.calender .box {
+  position: relative;
+  width: calc(100%/7);
+  height: 52px;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 3;
+  font-weight: 500;
+  color: black;
+}
+
+.activeParent {
+  color: white !important;
+}
+
+.calender .dateContainer .days {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.calender .dateContainer .dayCount {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.calender .dateContainer .dayCount span {
+  z-index: 3;
+}
+
+.calender .active {
+  color: white;
+  background: #1386da;
+  display: block;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  border-radius: 50%;
+  z-index: 0;
+}
+
+.profile {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  height: 93vh;
+  border-radius: 20px;
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+.profile::-webkit-scrollbar {
+  display: none;
+}
+
+@media (max-width: 1030px) {
+  .profile {
+    display: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  .profile {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+    width: 25%;
+  }
+}
+
+@media (min-width: 1400px) {
+  .profile {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+    width: 30%;
+    margin: auto;
+  }
+}
+
+@media (min-width: 1400px) {
+  .profile {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+    width: 25%;
+    margin: auto;
+  }
+}
+
+.profile .profile-details .image {
+  width: 56px;
+  height: 56px;
+  overflow: hidden;
+  border-radius: 50px;
+}
+
+.profile .profile-details .image img {
+  width: 100%;
+}
+
+.profile .school-snippet .title {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.profile .school-snippet .details {
+  background: white;
+  -webkit-box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.15);
+          box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+}
+
+.profile .school-snippet .details .serial-no-count {
+  width: 50px;
+  height: 50px;
+  background-color: #f4f4f4;
+  position: relative;
+  border-radius: 10px;
+}
+
+.profile .school-snippet .details .serial-no-count p {
+  position: relative;
+  top: 25%;
+}
+
+.profile .school-snippet .details .main-text {
+  font-weight: 700;
+}
+
+.profile .school-snippet .details .small-button {
+  width: 50px;
+  height: 50px;
+  background-color: #1386da;
+  position: relative;
+  border-radius: 10px;
+}
+
+.profile .school-snippet .details .small-button a {
+  color: white;
+  text-decoration: none;
+  position: relative;
+  top: 25%;
+}
+
+html {
+  overflow-x: hidden;
+}
+/*# sourceMappingURL=student-settings.css.map */

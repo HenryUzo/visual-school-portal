@@ -567,6 +567,10 @@
   margin-top: 30vh;
 }
 
+.nav .side-nav .superadmin-logout {
+  margin-top: 30vh;
+}
+
 .nav .side-nav .student-logout {
   margin-top: 40vh;
 }
@@ -1269,6 +1273,15 @@
 .vschool-list-group .content {
   background-color: transparent;
   border: none;
+}
+
+.upload-file .image {
+  width: 70px;
+  overflow: hidden;
+}
+
+.upload-file .image img {
+  width: 100%;
 }
 
 * {
@@ -2002,5 +2015,26 @@ html .cap-image img {
 .big-topic {
   font-size: 48px;
   font-weight: 700;
+}
+
+.cap-image .image {
+  width: 100%;
+  overflow: hidden;
+}
+
+@media (max-width: 800px) {
+  .cap-image .image {
+    width: 40%;
+  }
+}
+
+@media (max-width: 500px) {
+  .cap-image .image {
+    width: 60%;
+  }
+}
+
+.cap-image .image img {
+  width: 100%;
 }
 /*# sourceMappingURL=index.css.map */

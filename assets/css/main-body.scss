@@ -413,3 +413,14 @@
         border:none;
     }
 }
+
+.upload-file{
+    .image{
+        width: 70px;
+        overflow: hidden;
+        img{
+            width: 100%;
+
+        }
+    }
+}
