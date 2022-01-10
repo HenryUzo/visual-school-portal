@@ -567,6 +567,10 @@
   margin-top: 30vh;
 }
 
+.nav .side-nav .superadmin-logout {
+  margin-top: 30vh;
+}
+
 .nav .side-nav .student-logout {
   margin-top: 40vh;
 }
@@ -1269,6 +1273,15 @@
 .vschool-list-group .content {
   background-color: transparent;
   border: none;
+}
+
+.upload-file .image {
+  width: 70px;
+  overflow: hidden;
+}
+
+.upload-file .image img {
+  width: 100%;
 }
 
 html {
