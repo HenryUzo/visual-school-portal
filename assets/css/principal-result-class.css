@@ -572,7 +572,7 @@
 }
 
 .nav .side-nav .student-logout {
-  margin-top: 40vh;
+  margin-top: 30vh;
 }
 
 .nav .side-nav .active,
@@ -1032,6 +1032,11 @@
 
 .main-cta .container .CTAs .school {
   background-image: url(/assets/img/school.png);
+}
+
+.small-cards .small-card-contain {
+  padding-left: 0;
+  padding-right: 0;
 }
 
 @media (min-width: 700px) {
