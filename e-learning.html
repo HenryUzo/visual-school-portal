@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visual School</title>
+
+    <!-- Bootstarp CSS -->
+
+    <link href="./assets/css/bootstarp/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!--End Bootstarp CSS -->
+
+    <!-- Font Awesome -->
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+        integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+    <!--End Font Awesome -->
+
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!--End Font -->
+
+    <!-- Default CSS -->
+
+    <link rel="stylesheet" href="./assets/css/e-learning.css">
+
+    <!--End Default CSS -->
+
+</head>
+
+<body>
+
+    <div class="container-fluid banner-background">
+        <div class="container-fluid nav ">
+            <div class="mobile-nav container">
+                <div class="row">
+                    <div class="col-md-4 col-3 my-4 mt-5 ps-md-5 ps-3">
+                        <div id="mySidenav" class="top-nav">
+                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                            <a href="login.html">Sign In</a>
+                            <a href="#">E-Library</a>
+                            <a href="#">E-Learning</a>
+                            <a href="student-signup.html">Student Sign Up</a>
+                            <a href="signup-teacher.html">Teacher Sign Up</a>
+                            <a href="principal-signup.html">Headteacher Sign Up</a>
+
+                        </div>
+
+                        <span class="hamburger" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+                    </div>
+                    <div class="col-md-4 col-6 text-center">
+                        <div class=" my-4">
+                            <a class="navbar-brand" href="#">
+                                <ul class="list-group list-group-horizontal">
+
+                                    <div  class="vschool-logo image ">
+
+                                        <img src="./assets/img/VSP-Main.png" alt="">
+
+                                    </div>
+
+
+                                    <div class="vschool-logo image ">
+
+                                        <img src="./assets/img/anambra-logo.jpg" alt="">
+
+                                    </div>
+
+                                </ul>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <nav class="container vschool-contain navbar navbar-expand-lg navbar-light  landing-page-menu">
+            <div class="container-fluid">
+                <a class="navbar-brand mt-3" href="/index.html">
+                    <ul class="list-group list-group-horizontal">
+
+                        <div title="Visual Studio Portal" class="vschool-logo image ">
+
+                            <img src="./assets/img/VSP-Main.png" alt="">
+
+                        </div>
+
+
+                        <div title="Anambra State Universal Basic Education Board (ASUBEB)" class="vschool-logo image ">
+
+                            <img src="./assets/img/anambra-logo.jpg" alt="">
+
+                        </div>
+
+                    </ul>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse index-nav" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                        <li class="nav-item  mx-2">
+                            <a class="nav-link px-0" aria-current="page" href="/index.html">Home</a>
+                        </li>
+                        <li class="nav-item  mx-2 px-0">
+                            <a class="nav-link  " href="#about-us">About Us</a>
+                        </li>
+                        <li class="nav-item  mx-2 px-0">
+                            <a class="nav-link" href="#about-us">E-Library</a>
+                        </li>
+                        <li class="nav-item  mx-2 px-0">
+                            <a class="nav-link active" href="#about-us">E-Learning</a>
+                        </li>
+                        <li class="nav-item mx-2 px-0">
+                            <a class="nav-link" href="#contact-us">Contact Us</a>
+                        </li>
+                        <li class="nav-item mx-2 px-0">
+                            <a class="nav-link" href="/login.html">Sign In</a>
+                        </li>
+                        <li class="nav-item dropdown px-0 mx-2">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Sign Up
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="/student-signup.html">Students</a></li>
+                                <li><a class="dropdown-item" href="/signup-teacher.html">Teachers</a></li>
+                                <li><a class="dropdown-item" href="/principal-signup.html">Head Teacher</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+        <div class="container vschool-contain ">
+            <div class="row mx-4">
+                <div class="col-lg-5 my-auto text-center text-lg-start">
+                    <h1 class="big-caption">
+                        Welcome to
+                        <br> E-learning
+                    </h1>
+                    <!-- <p class="small-caption my-3">
+                        A better way of accessing your test and examination records
+                    </p>
+                   -->
+                </div>
+                <div class="col-lg-7 cap-image mt-5 ">
+                    <div class="image mx-auto">
+                        <img src="./assets/img/e-learning.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container vschool-contain py-5">
+        <h2>Courses</h2>
+        <div class="row my-5">
+            <div class="col-4 thumbnail-image  px-3">
+
+                <div class="image ">
+                    <img src="./assets/img/learn-1.png" alt="">
+                </div>
+                <div class="py-3 mb-5"> <a class="small-topic " href="https://www.youtube.com/c/khanacademy">Khan Academy</a>
+                </div>
+            </div>
+            <div class="col-4 thumbnail-image px-3">
+
+                <div class="image ">
+                    <img src="./assets/img/learn-2.png" alt="">
+                </div>
+                <div class="py-3 mb-5 "> <a class="small-topic " href="https://www.youtube.com/c/GlobalShikshaIndia/featured">Global Shiksha</a>
+                </div>
+            </div>
+            <div class="col-4 thumbnail-image px-3">
+
+                <div class="image ">
+                    <img src="./assets/img/learn-3.png" alt="">
+                </div>
+                <div class="py-3 mb-5 "> <a class="small-topic " href="https://www.youtube.com/watch?v=aw6KyJTB2Ys">Nigeria Geography for Kids</a>
+                </div>
+            </div>
+            <div class="col-4 thumbnail-image px-3">
+
+                <div class="image ">
+                    <img src="./assets/img/learn04.png" alt="">
+                </div>
+                <div class="py-3 mb-5"> <a class="small-topic " href="https://www.youtube.com/watch?v=nBqUFYqujrs">Nigeria Basic Information</a>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+    <!-- 
+    <div class="container py-4">
+        <div class="col-lg-8">
+            <div class="row text-center text-md-start">
+                <div class="col-md-4">
+                    <h5 class="small-topic">
+                        Phone Number
+                    </h5>
+                    <p>
+                        08169383231
+                    </p>
+
+                </div>
+                <div class="col-md-4">
+                    <h5 class="small-topic">
+                        Email
+                    </h5>
+                    <p>
+                        info@visualschool.com
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="small-topic">
+                        Our Address
+                    </h5>
+                    <p>
+                        ASUBEB Awka, Anambra State.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </div> -->
+
+
+
+
+
+
+
+
+    <!-- Bootstrap JS -->
+    <script src="./assets/js/bootstrap/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    ]
+    <!-- default JS -->
+    <script src="./assets/js/index.js"></script>
+    <!-- default JS -->
+
+</body>
+
+</html>

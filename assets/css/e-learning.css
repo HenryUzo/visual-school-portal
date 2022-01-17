@@ -2030,24 +2030,12 @@ html .cap-image img {
   font-weight: 700;
 }
 
-.cap-image .image {
+.thumbnail-image .image {
   width: 100%;
   overflow: hidden;
 }
 
-@media (max-width: 800px) {
-  .cap-image .image {
-    width: 40%;
-  }
-}
-
-@media (max-width: 500px) {
-  .cap-image .image {
-    width: 60%;
-  }
-}
-
-.cap-image .image img {
+.thumbnail-image .image img {
   width: 100%;
 }
 
@@ -2061,4 +2049,4 @@ html .cap-image img {
   width: 100%;
   mix-blend-mode: multiply;
 }
-/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=e-learning.css.map */

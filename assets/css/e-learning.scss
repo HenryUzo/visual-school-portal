@@ -79,16 +79,11 @@ html {
     font-size: 48px;
     font-weight: 700;
 }
-.cap-image {
+.thumbnail-image {
     .image {
         width: 100%;
         overflow: hidden;
-        @media (max-width: 800px) {
-            width: 40%;
-        }
-        @media (max-width: 500px) {
-            width: 60%;
-        }
+      
         img {
             width: 100%;
         }
